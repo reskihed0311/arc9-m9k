@@ -207,14 +207,14 @@ SWEP.SpreadAddSighted = 0 -- Applied when sighted. Can be negative.
 -------------------------- HANDLING
 
 SWEP.FreeAimRadius = 0 -- In degrees, how much this gun can free aim in hip fire.
-SWEP.Sway = 1.5 -- How much the gun sways. 
+SWEP.Sway = 0 -- How much the gun sways. 
 
 SWEP.HoldBreathTime = 5 -- time that you can hold breath for, set to 0 to disable holding breath
 SWEP.RestoreBreathTime = 10
 
 SWEP.FreeAimRadiusMultSights = 0
 
-SWEP.SwayMultSights = 1
+SWEP.SwayMultSights = 0
 
 SWEP.AimDownSightsTime = 0.15 -- How long it takes to go from hip fire to aiming down sights.
 SWEP.SprintToFireTime = 0.05 -- How long it takes to go from sprinting to being able to fire.
