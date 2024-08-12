@@ -287,15 +287,16 @@ SWEP.AfterShotParticleDelay = 0.01 -- Delay before spawning the particle
 
 
 SWEP.ShellEffectCount = 1
+SWEP.NoShellEject = true
 
-SWEP.ShellModel = "models/shells/shell_9mm.mdl"
+SWEP.ShellModel = "models/shells/shell_338mag.mdl"
 
 
 SWEP.ShellSmoke = true
 
 
 
-SWEP.ShellScale = 1
+SWEP.ShellScale = 1.5
 SWEP.ShellPhysBox = Vector(0.5, 0.5, 2)
 
 SWEP.ShellPitch = 100 -- for shell sounds
