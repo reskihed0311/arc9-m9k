@@ -62,6 +62,13 @@ $sequence "idle" {
 }
 
 
+$sequence "cycle" {
+	"anims\cycle.dmx"
+	activity "ACT_VM_IDLE" 1
+	snap
+	fps 30
+}
+
 
 
 

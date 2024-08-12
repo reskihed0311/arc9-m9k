@@ -275,7 +275,7 @@ SWEP.TriggerUpSound = ""
 SWEP.NoMuzzleEffect = false -- Disable muzzle effect entirely
 SWEP.NoFlash = false -- Disable light flash
 
-SWEP.MuzzleParticle = "muzzleflash_pistol" -- Used for some muzzle effects.
+SWEP.MuzzleParticle = "muzzleflash_M82" -- Used for some muzzle effects.
 
 SWEP.MuzzleEffect = "MuzzleFlash"
 SWEP.FastMuzzleEffect = nil
@@ -416,8 +416,18 @@ SWEP.ReloadHideBoneTables = {
 
 
 SWEP.Attachments = {
-
     [1] = {
+
+        PrintName = "Unlamifier Slot",
+        DefaultName = "Pick One!",
+        Category = {""},
+        Bone = "Weapon",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+
+    },
+
+    [2] = {
 
         PrintName = "Optic Rail",
         DefaultName = "Iron Sights",

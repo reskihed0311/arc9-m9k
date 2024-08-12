@@ -287,6 +287,7 @@ SWEP.AfterShotParticleDelay = 0.01 -- Delay before spawning the particle
 
 
 SWEP.ShellEffectCount = 1
+SWEP.NoShellEject = true
 
 SWEP.ShellModel = "models/shells/shell_9mm.mdl"
 
@@ -415,7 +416,19 @@ SWEP.ReloadHideBoneTables = {
 
 
 
-SWEP.Attachments = {}
+SWEP.Attachments = {
+    [1] = {
+
+        PrintName = "Unlamifier Slot",
+        DefaultName = "Pick One!",
+        Category = {},
+        Bone = "Weapon",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+
+    },
+
+}
 
 
 
