@@ -485,7 +485,7 @@ SWEP.Animations = {
     ["draw"] = {
         Source = "draw",
     },
-    ["holste"] = {
-        Source = "holster_empty",
+    ["holster"] = {
+        Source = "holster",
     },
     }
