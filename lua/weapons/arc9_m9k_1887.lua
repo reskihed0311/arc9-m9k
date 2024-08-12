@@ -48,8 +48,8 @@ SWEP.ViewModelFOVBase = 70-- Set to override viewmodel FOV
 
 
 
-SWEP.DamageMax = 110 -- Damage done at point blank range
-SWEP.DamageMin = 110 -- Damage done at maximum range
+SWEP.DamageMax = 15 -- Damage done at point blank range
+SWEP.DamageMin = 15 -- Damage done at maximum range
 SWEP.ImpactForce = 0 -- Force that bullets apply on hit
 
 
@@ -108,7 +108,7 @@ SWEP.TracerSize = 10
 SWEP.Ammo = "SniperPenetratedRound" -- What ammo type this gun uses.
 
 SWEP.ChamberSize = 1 -- The amount of rounds this gun can chamber.
-SWEP.ClipSize = 8 -- Self-explanatory.
+SWEP.ClipSize = 7 -- Self-explanatory.
 SWEP.SupplyLimit = 5 -- Amount of magazines of ammo this gun can take from an ARC9 supply crate.
 SWEP.SecondarySupplyLimit = 2 -- Amount of reserve UBGL magazines you can take.
 
@@ -190,6 +190,11 @@ SWEP.RecoilRandomSide = 0
 SWEP.RecoilAutoControl = 0 -- Multiplier for automatic recoil control.
 
 -------------------------- SPREAD
+
+
+SWEP.UseDispersion = true -- Use this for shotguns - Additional random angle to spread, same for each pellet
+SWEP.DispersionSpread = 0.2 -- SWEP.Spread will be clump spread, and this will be dispersion of clump
+
 
 SWEP.Spread = 0.05
 
