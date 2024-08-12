@@ -343,8 +343,8 @@ SWEP.CrouchPos = Vector(0, 0, 0)
 SWEP.CrouchAng = Angle(0, 0, -3)
 
 -- Position when sprinting or safe
-SWEP.RestPos = Vector(0, -2, -10)
-SWEP.RestAng = Angle(0, 70, 0)
+SWEP.RestPos = Vector(0, -5, 1)
+SWEP.RestAng = Angle(0, -30, 0)
 
 
 
