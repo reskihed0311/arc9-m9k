@@ -9,7 +9,7 @@ $model "1887_reference" "1887_reference.dmx"
 $cdmaterials "models\weapons\arc9_m9k\1887\"
 
 $attachment "1" "muzzle" 0.00 0.00 0.00 rotate -90 0 0
-$attachment "2" "eject" 0.00 0.00 0.00 rotate 0 0 0
+$attachment "2" "eject" 0.00 0.00 0.00 rotate -0 90 0
 
 
 $bonemerge "ValveBiped.Bip01_Spine4"
