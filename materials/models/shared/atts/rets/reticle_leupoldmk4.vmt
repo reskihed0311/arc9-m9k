@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture" "models\shared\atts\rets/reticle_leupoldmk4"
+	"$translucent" 1
+}
