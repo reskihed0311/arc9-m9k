@@ -72,7 +72,7 @@ SWEP.RicochetChance = 0 -- If the angle is right, what is the chance that a rico
 SWEP.RicochetSeeking = false -- Whether ricochet bullets will seek living targets in a cone.
 
 
-SWEP.DamageType = DMG_BULLET
+SWEP.DamageType = DMG_BUCKSHOT
 
 
 
@@ -105,7 +105,7 @@ SWEP.TracerSize = 10
 
 -------------------------- MAGAZINE
 
-SWEP.Ammo = "SniperPenetratedRound" -- What ammo type this gun uses.
+SWEP.Ammo = "buckshot" -- What ammo type this gun uses.
 
 SWEP.ChamberSize = 1 -- The amount of rounds this gun can chamber.
 SWEP.ClipSize = 7 -- Self-explanatory.
