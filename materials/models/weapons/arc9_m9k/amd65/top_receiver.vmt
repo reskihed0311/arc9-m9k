@@ -1,0 +1,15 @@
+VertexLitGeneric
+{
+    "$basetexture"    "models\weapons\arc9_m9k\amd65\2_d"
+    "$bumpmap" "models\weapons\arc9_m9k\amd65\2_n"
+    //"$envmap" "env_cubemap"
+    "$normalmapalphaenvmapmask" "1"
+    "$halflambert" "1"
+     "$phong" "1"
+    "$phongexponenttexture" "models\weapons\arc9_m9k\amd65\2_s"
+    "$phongboost" "1"
+    "$phongfresnelranges" "[4 8 16]"
+    "$phongalbedotint" "1"
+	"$nocull" "1"
+    //receiver
+}
