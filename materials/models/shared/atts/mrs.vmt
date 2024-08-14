@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"models\shared\atts\mrs_d"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models\shared\atts\mrs_s"
+    "$translucent" "1"
+}

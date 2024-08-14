@@ -433,9 +433,9 @@ SWEP.Attachments = {
 
         PrintName = "Optic Rail",
         DefaultName = "Iron Sights",
-        Category = {"m9k_opticbig"},
+        Category = {"m9k_opticbig", "m9k_opticmedium"},
         Bone = "Weapon",
-        Pos = Vector(0, -2.2, 7),
+        Pos = Vector(0, -2.35, 7),
         Ang = Angle(90, 0, -90),
 
     },

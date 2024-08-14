@@ -100,3 +100,48 @@ ATT.HoloSightColorable = true
 
 
 ARC9.LoadAttachment(ATT, "r_m9k_okp7")
+
+
+
+
+//////////////////////////////////////     r_m9k_mrs
+
+ATT = {}
+
+ATT.PrintName = "MRS"
+ATT.Description = [[Small precision sight picture , made by the USA.]]
+ATT.Pros = {
+    "+ Clearer sight picture"
+}
+ATT.Cons = {}
+ATT.MenuCategory = "reshed"
+ATT.Free = false
+ATT.Folder = "Reflex Sights"
+
+ATT.Category = {"m9k_opticmedium"}
+
+
+ATT.Model = "models/shared/optics/shaerd_okp_scope.mdl"
+ATT.Scale = 1
+ATT.ModelOffset = Vector(0, 0, 0)
+ATT.ModelAngleOffset = Angle(0, 0, 0)
+
+ATT.Sights = {
+    {
+        Pos = Vector(0.03, 10, -0.80),
+        Ang = Angle(0, 0, 0),
+        Magnification = 1.1,
+        ViewModelFOV = 56,
+        IgnoreExtra = false
+    },
+}
+
+ATT.HoloSight = true
+ATT.HoloSightReticle = Material("models/shared/atts/rets/okp7.png", "mips")
+ATT.HoloSightSize = 512
+ATT.HoloSightColorable = true
+
+
+
+
+ARC9.LoadAttachment(ATT, "r_m9k_okp7")

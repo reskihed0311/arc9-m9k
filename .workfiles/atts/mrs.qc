@@ -1,10 +1,10 @@
-$modelname "shaerd_okp_scope.mdl"
+$modelname "shaerd_mrs_scope.mdl"
 
 
 
 $bodygroup "scope" 
 {
-     studio "okp.dmx"
+     studio "mrs.dmx"
 }
 
 
