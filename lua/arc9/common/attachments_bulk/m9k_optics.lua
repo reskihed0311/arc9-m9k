@@ -92,9 +92,9 @@ ATT.Sights = {
 }
 
 ATT.HoloSight = true
-ATT.HoloSightReticle = Material("hud/arc9_csgo/reticles/ReticleOPK.png", "mips")
+ATT.HoloSightReticle = Material("models/shared/atts/rets/okp7.png", "mips")
 ATT.HoloSightSize = 512
-ATT.HoloSightColorable = false
+ATT.HoloSightColorable = true
 
 
 
