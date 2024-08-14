@@ -420,7 +420,6 @@ SWEP.Hook_ModifyBodygroups = function(wep, data)
     local mdl = data.model
     if data.elements["m9k_opticmedium"] then
         mdl:SetBodygroup(1, 1)
-        mdl:SetBodygroup(2, 1)
     end
 end
 
