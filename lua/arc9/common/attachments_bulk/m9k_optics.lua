@@ -144,4 +144,4 @@ ATT.HoloSightColorable = true
 
 
 
-ARC9.LoadAttachment(ATT, "r_m9k_okp7")
+ARC9.LoadAttachment(ATT, "r_m9k_mrs")
