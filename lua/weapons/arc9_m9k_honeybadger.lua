@@ -414,6 +414,15 @@ SWEP.NonTPIKAnimMelee = ACT_GMOD_GESTURE_MELEE_SHOVE_2HAND
 
 
 
+SWEP.DefaultBodygroups = "00000000000000000000000"
+SWEP.Hook_ModifyBodygroups = function(wep, data)
+    local eles = data.elements
+    local mdl = data.model
+    if data.elements["m9k_opticmedium"] then
+        mdl:SetBodygroup(1, 1)
+        mdl:SetBodygroup(2, 1)
+    end
+end
 
 
 
@@ -428,12 +437,12 @@ SWEP.ReloadHideBoneTables = {
 SWEP.Attachments = {
     [1] = {
 
-        PrintName = "Unlamifier Slot",
-        DefaultName = "Pick One!",
-        Category = {},
-        Bone = "Weapon",
-        Pos = Vector(0, 0, 0),
-        Ang = Angle(0, 0, 0),
+        PrintName = "Optic",
+        DefaultName = "Iron Sights",
+        Category = {"m9k_opticmedium"},
+        Bone = "weapon",
+        Pos = Vector(0, -2.85, 1.5),
+        Ang = Angle(90, 0, -90),
 
     },
 

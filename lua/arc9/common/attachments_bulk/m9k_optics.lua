@@ -57,3 +57,46 @@ ATT.RTScopeColorable = false
 
 
 ARC9.LoadAttachment(ATT, "r_m9k_m82scope")
+
+
+//////////////////////////////////////     r_m9k_okp7
+
+ATT = {}
+
+ATT.PrintName = "OKP-7"
+ATT.Description = [[Small precision sight picture , made by the Russian Federation..]]
+ATT.Pros = {
+    "+ Clearer sight picture"
+}
+ATT.Cons = {}
+ATT.MenuCategory = "reshed"
+ATT.Free = false
+ATT.Folder = "Reflex Sights"
+
+ATT.Category = {"m9k_opticmedium"}
+
+
+ATT.Model = "models/shared/optics/shaerd_okp_scope.mdl"
+ATT.Scale = 1
+ATT.ModelOffset = Vector(0, 0, 0)
+ATT.ModelAngleOffset = Angle(0, 0, 0)
+
+ATT.Sights = {
+    {
+        Pos = Vector(0.03, 10, -0.80),
+        Ang = Angle(0, 0, 0),
+        Magnification = 1.1,
+        ViewModelFOV = 56,
+        IgnoreExtra = false
+    },
+}
+
+ATT.HoloSight = true
+ATT.HoloSightReticle = Material("hud/arc9_csgo/reticles/ReticleOPK.png", "mips")
+ATT.HoloSightSize = 512
+ATT.HoloSightColorable = false
+
+
+
+
+ARC9.LoadAttachment(ATT, "r_m9k_okp7")
