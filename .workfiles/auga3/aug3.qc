@@ -5,6 +5,13 @@ $modelname "arc9_m9k_auga3.mdl"
 $model "aug" "aug.dmx"
 
 
+$bodygroup "irons"
+{
+    studio "irons.dmx"
+	blank
+}
+
+
 
 $cdmaterials "models\weapons\arc9_m9k\aug\"
 $cdmaterials "models\weapons\arc9_m9k\honeybadger\"
