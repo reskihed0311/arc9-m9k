@@ -485,7 +485,7 @@ SWEP.Animations = {
     },
     ["reload_empty"] = {
         Source = "reload_empty",
-        DropMagAt = 0.40, -- Drop magazine at this time
+        DropMagAt = 0.45, -- Drop magazine at this time
         EventTable = {
             {s = "weapons/honeybadger/magout.mp3", t = 0.43},
             {s = "weapons/honeybadger/magin.mp3", t = 1.35},
