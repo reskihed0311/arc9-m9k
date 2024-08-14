@@ -6,6 +6,7 @@ SWEP.Spawnable = true
 SWEP.Category = "ARC9 - Murderthon9000"
 SWEP.SubCategory = "Pistols"
 SWEP.AdminOnly = false
+SWEP.Slot = 1
 
 
 

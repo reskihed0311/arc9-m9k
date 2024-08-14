@@ -1,8 +1,8 @@
 "VertexlitGeneric"
 {
-	"$basetexture" "models\weapons\arc9_reshed\atts/glass"
+	"$basetexture" "models\shared\atts/glass"
 	
-	"$bumpmap" "models\weapons\arc9_reshed\atts/glass_nrm"
+	"$bumpmap" "models\shared\atts/glass_nrm"
 	"$translucent" 1
 	
 	"$phong" "1"

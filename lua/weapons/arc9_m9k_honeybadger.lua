@@ -6,6 +6,7 @@ SWEP.Spawnable = true
 SWEP.Category = "ARC9 - Murderthon9000"
 SWEP.SubCategory = "PDWs"
 SWEP.AdminOnly = false
+SWEP.Slot = 2
 
 
 
@@ -351,7 +352,7 @@ SWEP.CrouchPos = Vector(0, 0, 0)
 SWEP.CrouchAng = Angle(0, 0, -3)
 
 -- Position when sprinting or safe
-SWEP.RestPos = Vector(0, 0, 0)
+SWEP.RestPos = Vector(-1, -3, 2)
 SWEP.RestAng = Angle(15, -30, -15)
 
 

@@ -6,7 +6,7 @@ SWEP.Spawnable = true
 SWEP.Category = "ARC9 - Murderthon9000"
 SWEP.SubCategory = "Assault Rifles"
 SWEP.AdminOnly = false
-
+SWEP.Slot = 2
 
 
 SWEP.PrintName = "AUG A3"

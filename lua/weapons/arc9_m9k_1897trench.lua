@@ -7,6 +7,8 @@ SWEP.Category = "ARC9 - Murderthon9000"
 SWEP.SubCategory = "Shotguns"
 SWEP.AdminOnly = false
 
+SWEP.Slot = 3
+
 
 
 SWEP.PrintName = "Trench Gun 1897"

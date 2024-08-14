@@ -8,6 +8,9 @@ SWEP.SubCategory = "Assault Rifles"
 SWEP.AdminOnly = false
 
 
+SWEP.Slot = 2
+
+
 
 SWEP.PrintName = "AMD-65"
 
