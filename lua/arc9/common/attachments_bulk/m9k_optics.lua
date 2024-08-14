@@ -78,7 +78,7 @@ ATT.Category = {"m9k_opticmedium"}
 
 ATT.Model = "models/shared/optics/shaerd_okp_scope.mdl"
 ATT.Scale = 1
-ATT.ModelOffset = Vector(0, 0, 0)
+ATT.ModelOffset = Vector(0, 0, 0.1)
 ATT.ModelAngleOffset = Angle(0, 0, 0)
 
 ATT.Sights = {
