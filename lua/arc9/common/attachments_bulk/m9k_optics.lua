@@ -121,14 +121,14 @@ ATT.Folder = "Reflex Sights"
 ATT.Category = {"m9k_opticmedium"}
 
 
-ATT.Model = "models/shared/optics/shaerd_okp_scope.mdl"
+ATT.Model = "models/shared/optics/shaerd_mrs_scope.mdl"
 ATT.Scale = 1
 ATT.ModelOffset = Vector(0, 0, 0)
 ATT.ModelAngleOffset = Angle(0, 0, 0)
 
 ATT.Sights = {
     {
-        Pos = Vector(0.03, 10, -0.80),
+        Pos = Vector(0.03, 10, -1.45),
         Ang = Angle(0, 0, 0),
         Magnification = 1.1,
         ViewModelFOV = 56,
@@ -137,8 +137,8 @@ ATT.Sights = {
 }
 
 ATT.HoloSight = true
-ATT.HoloSightReticle = Material("models/shared/atts/rets/okp7.png", "mips")
-ATT.HoloSightSize = 512
+ATT.HoloSightReticle = Material("models/shared/atts/rets/mrs.png", "mips smooth")
+ATT.HoloSightSize = 256
 ATT.HoloSightColorable = true
 
 
