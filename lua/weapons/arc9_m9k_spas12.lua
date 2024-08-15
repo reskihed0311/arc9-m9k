@@ -440,6 +440,7 @@ SWEP.Animations = {
      },
     ["fire"] = {
         Source = "fire",
+        EjectAt = 0,
         EventTable = {
             {hide = 1 , t = 0},
          }
@@ -448,6 +449,7 @@ SWEP.Animations = {
     },
     ["fire_iron"] = {
         Source = "fire_iron",
+        EjectAt = 0,
         EventTable = {
             {hide = 1 , t = 0},
          }
@@ -456,6 +458,7 @@ SWEP.Animations = {
     },
     ["fire_iron_empty"] = {
         Source = "fire",
+        EjectAt = 0,
         EventTable = {
             {hide = 1 , t = 0},
          }
