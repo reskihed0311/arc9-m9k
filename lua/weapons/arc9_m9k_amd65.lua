@@ -426,6 +426,17 @@ SWEP.HideBones = {"mag2"} -- bones to hide in third person and customize menu. {
 
 SWEP.Attachments = {
 
+    {
+        
+        PrintName = "Dovetail Mount",
+        DefaultName = "No Mounts",
+        Category = {"m9k_dovetail"},
+        Bone = "weapon",
+        Pos = Vector(0.8, 0, -0.2),
+        Ang = Angle(90, 0, -90),
+        
+    }
+
 
 }
 
