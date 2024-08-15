@@ -434,16 +434,6 @@ SWEP.ReloadHideBoneTables = {
 
 
 SWEP.Attachments = {
-    [1] = {
-
-        PrintName = "Optic",
-        DefaultName = "Iron Sights",
-        Category = {"m9k_opticmedium"},
-        Bone = "weapon",
-        Pos = Vector(0, -2.5, 1.5),
-        Ang = Angle(90, 0, -90),
-
-    },
 
 }
 

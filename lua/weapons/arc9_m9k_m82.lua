@@ -50,7 +50,7 @@ SWEP.ViewModelFOVBase = 70-- Set to override viewmodel FOV
 
 
 SWEP.DamageMax = 110 -- Damage done at point blank range
-SWEP.DamageMin = 110 -- Damage done at maximum range
+SWEP.DamageMin = 90 -- Damage done at maximum range
 SWEP.ImpactForce = 0 -- Force that bullets apply on hit
 
 
@@ -76,9 +76,9 @@ SWEP.RicochetSeeking = false -- Whether ricochet bullets will seek living target
 SWEP.DamageType = DMG_BULLET
 
 
-
+--snipers
 SWEP.BodyDamageMults = {
-    [HITGROUP_HEAD] = 2.5,
+    [HITGROUP_HEAD] = 2,
     [HITGROUP_CHEST] = 1.25,
     [HITGROUP_STOMACH] = 1,
     [HITGROUP_LEFTARM] = 1,
@@ -98,8 +98,8 @@ SWEP.NeverPhysBullet = true
 SWEP.TracerNum = 1 -- Tracer every X
 SWEP.TracerFinalMag = 0 -- The last X bullets in a magazine are all tracers
 SWEP.TracerEffect = "ARC9_tracer" -- The effect to use for hitscan tracers
-SWEP.TracerColor = Color(255, 0, 0) -- Color of tracers. Only works if tracer effect supports it. For physical bullets, this is compressed down to 9-bit color.
-SWEP.TracerSize = 5
+SWEP.TracerColor = Color(0, 255, 0) -- Color of tracers. Only works if tracer effect supports it. For physical bullets, this is compressed down to 9-bit color.
+SWEP.TracerSize = 15
 
 
 
@@ -419,17 +419,6 @@ SWEP.ReloadHideBoneTables = {
 
 SWEP.Attachments = {
     [1] = {
-
-        PrintName = "Unlamifier Slot",
-        DefaultName = "Pick One!",
-        Category = {""},
-        Bone = "Weapon",
-        Pos = Vector(0, 0, 0),
-        Ang = Angle(0, 0, 0),
-
-    },
-
-    [2] = {
 
         PrintName = "Optic Rail",
         DefaultName = "Iron Sights",

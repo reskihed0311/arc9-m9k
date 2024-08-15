@@ -49,8 +49,8 @@ SWEP.ViewModelFOVBase = 70-- Set to override viewmodel FOV
 
 
 
-SWEP.DamageMax = 17 -- Damage done at point blank range
-SWEP.DamageMin = 17 -- Damage done at maximum range
+SWEP.DamageMax = 52-- Damage done at point blank range
+SWEP.DamageMin = 42 -- Damage done at maximum range
 SWEP.ImpactForce = 0 -- Force that bullets apply on hit
 
 
@@ -77,8 +77,9 @@ SWEP.DamageType = DMG_BULLET
 
 
 
+--damage mults for pistols
 SWEP.BodyDamageMults = {
-    [HITGROUP_HEAD] = 2.5,
+    [HITGROUP_HEAD] = 2,
     [HITGROUP_CHEST] = 1.25,
     [HITGROUP_STOMACH] = 1,
     [HITGROUP_LEFTARM] = 1,
@@ -175,10 +176,10 @@ SWEP.RecoilLookupTable = nil -- Use to set specific values for predictible recoi
 SWEP.RecoilLookupTableOverrun = nil -- Repeatedly take values from this table if we run out in the main table
 
 -- General recoil multiplier
-SWEP.Recoil = 0.5
+SWEP.Recoil = 1.2
 
 -- These multipliers affect the predictible recoil by making the pattern taller, shorter, wider, or thinner.
-SWEP.RecoilUp = 0.4 -- Multiplier for vertical recoil
+SWEP.RecoilUp = 0.8 -- Multiplier for vertical recoil
 SWEP.RecoilSide = 0.3 -- Multiplier for vertical recoil
 
 -- These values determine how much extra movement is applied to the recoil entirely randomly, like in a circle.
@@ -418,16 +419,6 @@ SWEP.ReloadHideBoneTables = {
 
 
 SWEP.Attachments = {
-    [1] = {
-
-        PrintName = "Unlamifier Slot",
-        DefaultName = "Pick One!",
-        Category = {},
-        Bone = "Weapon",
-        Pos = Vector(0, 0, 0),
-        Ang = Angle(0, 0, 0),
-
-    },
 
 }
 

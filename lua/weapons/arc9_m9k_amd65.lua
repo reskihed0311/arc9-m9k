@@ -49,13 +49,13 @@ SWEP.ViewModelFOVBase = 70-- Set to override viewmodel FOV
 
 
 
-SWEP.DamageMax = 31 -- Damage done at point blank range
+SWEP.DamageMax = 42 -- Damage done at point blank range
 SWEP.DamageMin = 31 -- Damage done at maximum range
 SWEP.ImpactForce = 0 -- Force that bullets apply on hit
 
 
-SWEP.RangeMin = -1 -- How far bullets retain their maximum damage for.
-SWEP.RangeMax = 10000-- In Hammer units, how far bullets can travel before dealing DamageMin.
+SWEP.RangeMin = 0 -- How far bullets retain their maximum damage for.
+SWEP.RangeMax = 9000-- In Hammer units, how far bullets can travel before dealing DamageMin.
 SWEP.Distance = 10000 -- In Hammer units, how far bullets can travel, period.
 
 
@@ -76,10 +76,10 @@ SWEP.RicochetSeeking = false -- Whether ricochet bullets will seek living target
 SWEP.DamageType = DMG_BULLET
 
 
-
+-- mults for assault rifles
 SWEP.BodyDamageMults = {
-    [HITGROUP_HEAD] = 2.5,
-    [HITGROUP_CHEST] = 1.25,
+    [HITGROUP_HEAD] = 1.1,
+    [HITGROUP_CHEST] = 1.05,
     [HITGROUP_STOMACH] = 1,
     [HITGROUP_LEFTARM] = 1,
     [HITGROUP_RIGHTARM] = 1,
@@ -425,16 +425,7 @@ SWEP.ReloadHideBoneTables = {
 SWEP.HideBones = {"mag2"} -- bones to hide in third person and customize menu. {"list", "of", "bones"}
 
 SWEP.Attachments = {
-    [1] = {
 
-        PrintName = "Unlamifier Slot",
-        DefaultName = "Pick One!",
-        Category = {},
-        Bone = "Weapon",
-        Pos = Vector(0, 0, 0),
-        Ang = Angle(0, 0, 0),
-
-    },
 
 }
 

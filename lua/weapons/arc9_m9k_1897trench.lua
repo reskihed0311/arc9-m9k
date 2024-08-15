@@ -49,14 +49,14 @@ SWEP.ViewModelFOVBase = 70-- Set to override viewmodel FOV
 
 
 
-SWEP.DamageMax = 20 -- Damage done at point blank range
-SWEP.DamageMin = 20 -- Damage done at maximum range
+SWEP.DamageMax = 17 -- Damage done at point blank range
+SWEP.DamageMin = 10 -- Damage done at maximum range
 SWEP.ImpactForce = 0 -- Force that bullets apply on hit
 
 
 SWEP.RangeMin = 0 -- How far bullets retain their maximum damage for.
-SWEP.RangeMax = 90000-- In Hammer units, how far bullets can travel before dealing DamageMin.
-SWEP.Distance = 900000 -- In Hammer units, how far bullets can travel, period.
+SWEP.RangeMax = 3500-- In Hammer units, how far bullets can travel before dealing DamageMin.
+SWEP.Distance = 4500 -- In Hammer units, how far bullets can travel, period.
 
 
 SWEP.CurvedDamageScaling = false -- If true, damage will scale in a quadratic curve between RangeMin and RangeMax. If false, damage will scale linearly.
@@ -422,16 +422,6 @@ SWEP.ReloadHideBoneTables = {
 
 SWEP.Attachments = {
 
-    [1] = {
-
-        PrintName = "Unlamifier Slot",
-        DefaultName = "Pick One",
-        Category = {},
-        Bone = "Weapon",
-        Pos = Vector(0,0, 0),
-        Ang = Angle(0, 0, 0),
-
-    },
 }
 
 SWEP.ShotgunReload = true -- Weapon reloads like shotgun. Uses insert_1, insert_2, etc animations instead.
