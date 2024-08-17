@@ -6,7 +6,7 @@ SWEP.Spawnable = true
 SWEP.Category = "ARC9 - Murderthon9000"
 SWEP.SubCategory = "Sniper Rifles"
 SWEP.AdminOnly = false
-SWEP.Slot = 2
+SWEP.Slot = 3
 
 
 
@@ -469,7 +469,7 @@ SWEP.Animations = {
             {s = "weapons/intervention/int_bolt.mp3", t = 0.29},
             {s = "weapons/intervention/int_bolt.mp3", t = 0.70},
         },
-        EjectAt = 0,
+        EjectAt = 0.5,
 
     },
     ["reload"] = {
