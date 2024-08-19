@@ -249,7 +249,88 @@ ATT.RTScopeBlackBoxShadow = true
 
 ATT.ScopeScreenRatio = 0.66
 
-
+ATT.AimDownSightsTimeMult = 1.20
+ATT.SprintToFireTimeMult = 1.20
 
 
 ARC9.LoadAttachment(ATT, "r_m9k_hamr")
+
+
+///////////////////////////////////////      r_m9k_vampireflir
+
+
+ATT = {}
+
+ATT.PrintName = "Vampire Thermal Scope"
+ATT.Description = [[
+Thermal sniper sight that allows you to touch someone any time of day
+Effective near 168 feet
+]]
+ATT.SortOrder = 8
+
+ATT.Model = "models/shared/optics/shaerd_vampireflir_scope.mdl"
+
+ATT.Category = {"m9k_opticmedium"}
+ATT.Folder = "Special Optics"
+
+-- Allows a custom sight position to be defined
+ATT.Sights = {
+    {
+        Pos = Vector(0, 8, -1.60),
+        Ang = Angle(0, 0, 0),
+        Magnification = 1.5,
+        ViewModelFOV = 60
+    },
+}
+
+
+
+ATT.RTScope = true
+ATT.RTScopeSubmatIndex = 3
+ATT.RTScopeFOV = 10
+ATT.RTScopeReticle = Material("models/shared/atts/rets/thermal.png", "mips smooth")
+ATT.RTScopeReticleScale = 1.05
+ATT.RTScopeColorable = true
+ATT.RTScopeShadowIntensity = 6
+
+ATT.ScopeScreenRatio = 0.9
+
+ATT.Scale = 1
+ATT.ModelOffset = Vector(0, 0, 0)
+
+ATT.RTScopeNightVision = true
+ATT.RTScopeNightVisionMonochrome = true
+ATT.RTScopeNightVisionNoPP = true
+
+ATT.RTScopeFLIR = true
+ATT.RTScopeFLIRSolid = false -- Solid color FLIR instead of like a shaded look
+ATT.RTScopeFLIRRange = 30000
+ATT.RTScopeFLIRMonochrome = true
+ATT.RTScopeFLIRBlend = 0.1
+ATT.RTScopeFLIRCCHot = { -- Color correction drawn only on FLIR targets
+    ["$pp_colour_addr"] = 0,
+    ["$pp_colour_addg"] = 0,
+    ["$pp_colour_addb"] = 0,
+    ["$pp_colour_brightness"] = 0.05,
+    ["$pp_colour_contrast"] = 1.5,
+    ["$pp_colour_colour"] = 1,
+    ["$pp_colour_mulr"] = 0,
+    ["$pp_colour_mulg"] = 0,
+    ["$pp_colour_mulb"] = 0
+}
+ATT.RTScopeFLIRCCCold = {
+    ["$pp_colour_addr"] = 0,
+    ["$pp_colour_addg"] = 0,
+    ["$pp_colour_addb"] = 0,
+    ["$pp_colour_brightness"] = 0.5,
+    ["$pp_colour_contrast"] = 0.25,
+    ["$pp_colour_colour"] = 1,
+    ["$pp_colour_mulr"] = 0,
+    ["$pp_colour_mulg"] = 0,
+    ["$pp_colour_mulb"] = 0
+}
+
+
+ATT.RTScopeMotionBlur = true
+
+ARC9.LoadAttachment(ATT, "r_m9k_vampireflir")

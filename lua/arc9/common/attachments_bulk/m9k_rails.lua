@@ -19,7 +19,7 @@ ATT.ModelOffset = Vector(-0.8, 0.43, 1.4)
 ATT.Attachments = {
     {
         PrintName = "Optic",
-        Pos = Vector(0, 1.1, -2.7),
+        Pos = Vector(0, 1.1, -2.5),
         Ang = Angle(0, 0, 0),
         Icon_Offset = Vector(0, 0, 1.5),
         Category = {"m9k_opticmedium"},
