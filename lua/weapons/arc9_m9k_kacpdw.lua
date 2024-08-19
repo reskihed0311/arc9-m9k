@@ -440,6 +440,15 @@ SWEP.Attachments = {
         Bone = "weapon",
         Pos = Vector(0, -3.1, 1.5),
         Ang = Angle(90, 0, -90),
+    },
+    {
+   
+        PrintName = "Grip",
+        DefaultName = "None",
+        Category = {"m9k_picgrip"},
+        Bone = "weapon",
+        Pos = Vector(0, -0.4, 9),
+        Ang = Angle(90, 0, 90),
     }
     
 
@@ -483,6 +492,23 @@ SWEP.Animations = {
     ["reload"] = {
         Source = "reload",
         DropMagAt = 0.50, -- Drop magazine at this time
+        IKTimeLine = { -- t is in fraction of animation
+                 {
+                     t = 0.1,
+                    lhik = 0,
+                     rhik = 0,
+                 },
+                 {
+                     t = 0.8,
+                     lhik = 0,
+                     rhik = 0,
+                 },
+                 {
+                    t = 0.95,
+                    lhik = 1,
+                    rhik = 0,
+                },
+             },
         EventTable = {
             {s = "weapons/kacpdw/m4a1_clipout.mp3", t = 0.43},
             {s = "weapons/kacpdw/m4a1_clipin.mp3", t = 1.56},
@@ -493,6 +519,23 @@ SWEP.Animations = {
     ["reload_empty"] = {
         Source = "reload_empty",
         DropMagAt = 0.45, -- Drop magazine at this time
+         IKTimeLine = { -- t is in fraction of animation
+                 {
+                     t = 0.1,
+                    lhik = 0,
+                     rhik = 0,
+                 },
+                 {
+                     t = 0.9,
+                     lhik = 0,
+                     rhik = 0,
+                 },
+                 {
+                    t = 0.98,
+                    lhik = 1,
+                    rhik = 0,
+                },
+             },
         EventTable = {
             {s = "weapons/kacpdw/m4a1_clipout.mp3", t = 0.43},
             {s = "weapons/kacpdw/m4a1_clipin.mp3", t = 1.56},

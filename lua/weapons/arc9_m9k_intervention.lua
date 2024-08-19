@@ -212,8 +212,8 @@ SWEP.FreeAimRadiusMultSights = 0
 
 SWEP.SwayMultSights = 0
 
-SWEP.AimDownSightsTime = 0.15 -- How long it takes to go from hip fire to aiming down sights.
-SWEP.SprintToFireTime = 0.05 -- How long it takes to go from sprinting to being able to fire.
+SWEP.AimDownSightsTime = 0.45 -- How long it takes to go from hip fire to aiming down sights.
+SWEP.SprintToFireTime = 0.45 -- How long it takes to go from sprinting to being able to fire.
 
 SWEP.MagnificationZoomSpeed = 1 -- Multiply how quickly the FOV adjusts itself when entering or exiting the sights, or when toggling from one sight to another.
 

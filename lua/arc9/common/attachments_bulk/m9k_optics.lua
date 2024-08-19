@@ -53,7 +53,8 @@ ATT.RTScopeShadowIntensity = 1
 ATT.RTScopeNoPP = false
 ATT.RTScopeColorable = false
 
-
+ATT.AimDownSightsTimeMult = 1.3
+ATT.SprintToFireTimeMult = 1.3
 
 
 ARC9.LoadAttachment(ATT, "r_m9k_m82scope")
@@ -96,7 +97,8 @@ ATT.HoloSightReticle = Material("models/shared/atts/rets/okp7.png", "mips")
 ATT.HoloSightSize = 512
 ATT.HoloSightColorable = true
 
-
+ATT.AimDownSightsTimeMult = 1.05
+ATT.SprintToFireTimeMult = 1.05
 
 
 ARC9.LoadAttachment(ATT, "r_m9k_okp7")
@@ -141,7 +143,8 @@ ATT.HoloSightReticle = Material("models/shared/atts/rets/mrs.png", "mips smooth"
 ATT.HoloSightSize = 256
 ATT.HoloSightColorable = true
 
-
+ATT.AimDownSightsTimeMult = 1.05
+ATT.SprintToFireTimeMult = 1.05
 
 
 ARC9.LoadAttachment(ATT, "r_m9k_mrs")

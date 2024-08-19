@@ -220,8 +220,8 @@ SWEP.FreeAimRadiusMultSights = 0
 
 SWEP.SwayMultSights = 0
 
-SWEP.AimDownSightsTime = 0.15 -- How long it takes to go from hip fire to aiming down sights.
-SWEP.SprintToFireTime = 0.05 -- How long it takes to go from sprinting to being able to fire.
+SWEP.AimDownSightsTime = 0.20 -- How long it takes to go from hip fire to aiming down sights.
+SWEP.SprintToFireTime = 0.10 -- How long it takes to go from sprinting to being able to fire.
 
 SWEP.MagnificationZoomSpeed = 1 -- Multiply how quickly the FOV adjusts itself when entering or exiting the sights, or when toggling from one sight to another.
 
@@ -443,6 +443,15 @@ SWEP.Attachments = {
         Category = {"m9k_opticmedium"},
         Bone = "weapon",
         Pos = Vector(0, -2.5, 1.5),
+        Ang = Angle(90, 0, -90),
+    },
+    {
+   
+        PrintName = "Grip",
+        DefaultName = "None",
+        Category = {"m9k_picgrip"},
+        Bone = "weapon",
+        Pos = Vector(0, -3.1, 1.5),
         Ang = Angle(90, 0, -90),
     }
     
