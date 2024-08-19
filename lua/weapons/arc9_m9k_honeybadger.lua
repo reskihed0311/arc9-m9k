@@ -185,7 +185,7 @@ SWEP.Recoil = 1
 
 -- These multipliers affect the predictible recoil by making the pattern taller, shorter, wider, or thinner.
 SWEP.RecoilUp = 0.4 -- Multiplier for vertical recoil
-SWEP.RecoilSide = 0.3 -- Multiplier for vertical recoil
+SWEP.RecoilSide = 0.15 -- Multiplier for vertical recoil
 
 -- These values determine how much extra movement is applied to the recoil entirely randomly, like in a circle.
 -- This type of recoil CANNOT be predicted.
@@ -451,8 +451,8 @@ SWEP.Attachments = {
         DefaultName = "None",
         Category = {"m9k_picgrip"},
         Bone = "weapon",
-        Pos = Vector(0, -3.1, 1.5),
-        Ang = Angle(90, 0, -90),
+        Pos = Vector(0, -0.2, 8),
+        Ang = Angle(90, 0, 90),
     }
     
 
@@ -496,6 +496,23 @@ SWEP.Animations = {
     ["reload"] = {
         Source = "reload",
         DropMagAt = 0.45, -- Drop magazine at this time
+        IKTimeLine = { -- t is in fraction of animation
+        {
+            t = 0.1,
+           lhik = 0,
+            rhik = 0,
+        },
+        {
+            t = 0.88,
+            lhik = 0,
+            rhik = 0,
+        },
+        {
+           t = 0.99,
+           lhik = 1,
+           rhik = 0,
+       },
+    },
         EventTable = {
             {s = "weapons/honeybadger/magout.mp3", t = 0.43},
             {s = "weapons/honeybadger/magin.mp3", t = 1.35},
@@ -506,6 +523,23 @@ SWEP.Animations = {
     ["reload_empty"] = {
         Source = "reload_empty",
         DropMagAt = 0.45, -- Drop magazine at this time
+        IKTimeLine = { -- t is in fraction of animation
+        {
+            t = 0.1,
+           lhik = 0,
+            rhik = 0,
+        },
+        {
+            t = 0.9,
+            lhik = 0,
+            rhik = 0,
+        },
+        {
+           t = 0.98,
+           lhik = 1,
+           rhik = 0,
+       },
+    },
         EventTable = {
             {s = "weapons/honeybadger/magout.mp3", t = 0.43},
             {s = "weapons/honeybadger/magin.mp3", t = 1.35},

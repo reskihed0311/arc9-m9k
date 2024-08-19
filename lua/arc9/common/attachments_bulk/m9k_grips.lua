@@ -23,7 +23,7 @@ ATT.LHIK = true
 ATT.ModelOffset = Vector(-18, 0, 3.5)
 ATT.ModelAngleOffset = Angle(0, 0, 180)
 
-ATT.RecoilMult = 0.9
+ATT.RecoilMult = 0.8
 ATT.AimDownSightsTimeMult = 1.1
 ATT.SprintToFireTimeMult = 1.1
 

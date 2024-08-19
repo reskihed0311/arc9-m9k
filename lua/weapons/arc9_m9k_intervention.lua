@@ -426,7 +426,7 @@ SWEP.ReloadHideBoneTables = {
 
 
 SWEP.Attachments = {
-    [1] = {
+      {
 
         PrintName = "Optic Rail",
         DefaultName = "Iron Sights",
@@ -436,6 +436,7 @@ SWEP.Attachments = {
         Ang = Angle(90, 0, -90),
 
     },
+
 }
 
 
