@@ -23,7 +23,9 @@ SWEP.Credits = {   -- Number in end of title orders line in list (otherwise they
 }
 
 
-SWEP.Description = [[The AMD-65 (Automata Módosított Deszant 1965, ;it. "Automatic Modified Paratrooper [weapon] 1965") is a Hungarian assault rifle developed from the AKM-63, itself a derivative of the Soviet AK-47.]]
+SWEP.Description = [[The AS "Val", (Russian: АС «Вал»; Автома́т Специа́льный, romanized: Avtomát Spetsiálny «Val», lit. 
+'Special Automatic' «Shaft»), (GRAU index 6P30) is a special assault rifle designed by TSNIITOCHMASH in late 1980s as a specialised weapon for Spetsnaz forces.
+ Due to the nature of operations that the Spetsnaz usually carry out, they are in need of silenced, low visible signature rifles.]]
 
 
 SWEP.UseHands = true -- Same as weapon_base
