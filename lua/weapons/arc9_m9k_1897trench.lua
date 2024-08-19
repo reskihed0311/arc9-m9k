@@ -280,7 +280,7 @@ SWEP.TriggerUpSound = ""
 SWEP.NoMuzzleEffect = false -- Disable muzzle effect entirely
 SWEP.NoFlash = false -- Disable light flash
 
-SWEP.MuzzleParticle = "muzzleflash_pistol" -- Used for some muzzle effects.
+SWEP.MuzzleParticle = "muzzleflash_M3" -- Used for some muzzle effects.
 
 SWEP.MuzzleEffect = "MuzzleFlash"
 SWEP.FastMuzzleEffect = nil
@@ -347,9 +347,8 @@ SWEP.CrouchPos = Vector(0, 0, 0)
 SWEP.CrouchAng = Angle(0, 0, -3)
 
 -- Position when sprinting or safe
-SWEP.RestPos = Vector(0, -2, -10)
-SWEP.RestAng = Angle(0, 70, 0)
-
+SWEP.RestPos = Vector(3, -3, 2.5)
+SWEP.RestAng = Angle(10, -35, 0)
 
 
 
