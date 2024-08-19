@@ -183,11 +183,73 @@ ATT.Sights = {
 }
 
 ATT.HoloSight = true
-ATT.HoloSightReticle = Material("models/shared/atts/rets/mrs.png", "mips smooth")
-ATT.HoloSightSize = 256
+ATT.HoloSightReticle = Material("models/shared/atts/rets/dot.png", "mips smooth")
+ATT.HoloSightSize = 100
 ATT.HoloSightColorable = true
 
 
 
 
 ARC9.LoadAttachment(ATT, "r_m9k_t1")
+
+
+///////////////////////////////////////      r_m9k_hamr
+
+
+ATT = {}
+
+ATT.PrintName = "HAMR"
+ATT.Description = [[Hybrid Leupold-produced scope comprises the Mark 4 HAMR 4x24mm optical sight with DeltaPoint reflex sight installed on top of it. It was developed for precision mid-range carbine fire using the 4x optics while being equally effective in close quarters thanks to use of compact reflex sight when necessary.]]
+ATT.SortOrder = 0
+
+ATT.Model = "models/shared/optics/shaerd_hamr_scope.mdl"
+
+ATT.MenuCategory = "reshed"
+ATT.Category = {"m9k_opticmedium"}
+ATT.Folder = "Medium Range Optics"
+
+
+
+ATT.FoldSights = true
+
+ATT.Sights = {
+    {
+        Pos = Vector(0, 10, -1.80),
+        Ang = Angle(0, 0, 0),
+        Magnification = 1.15,
+        ViewModelFOV = 36,
+        RTScopeFOV = 36/4,
+    
+    },
+    {
+        Pos = Vector(0, 8, -3.35),
+        Ang = Angle(0, 0, 0),
+        Magnification = 1.1,
+        ViewModelFOV = 60,
+        Disassociate = true,
+
+    },
+}
+
+
+ATT.HoloSight = true
+ATT.HoloSightReticle = Material("models/shared/atts/rets/dot.png", "mips smooth")
+ATT.HoloSightSize = 100
+ATT.HoloSightColorable = true
+
+ATT.RTScope = true
+ATT.RTScopeSubmatIndex = 4
+ATT.RTScopeFOV = 12
+ATT.RTScopeReticle = Material("models/shared/atts/rets/hamr.png", "mips smooth")
+ATT.RTScopeReticleScale = 1.1
+ATT.RTScopeColorable = true
+ATT.RTScopeShadowIntensity = 10
+ATT.RTScopeBlackBox = true 
+ATT.RTScopeBlackBoxShadow = true 
+
+ATT.ScopeScreenRatio = 0.66
+
+
+
+
+ARC9.LoadAttachment(ATT, "r_m9k_hamr")
