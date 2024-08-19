@@ -252,7 +252,7 @@ SWEP.ShootPitchVariation = 5 -- Not multiplied, but actually just added/subtract
 
 SWEP.ShootSound = "weapons/aug/aug-2.wav"                        -- Fire
 
-SWEP.ShootSoundSilenced = nil --setlater                  -- Fire silenced
+SWEP.ShootSoundSilenced = "weapons/supp_library/556_fire.wav" --setlater                  -- Fire silenced
 
 
 
@@ -433,7 +433,7 @@ SWEP.ReloadHideBoneTables = {
 
 
 SWEP.Attachments = {
-    [1] = {
+      {
 
         PrintName = "Optic",
         DefaultName = "Iron Sights",
@@ -443,6 +443,18 @@ SWEP.Attachments = {
         Ang = Angle(90, 0, -90),
 
     },
+    {
+        
+        PrintName = "Muzzle Device",
+        DefaultName = "No Muzzle",
+        Category = {"m9k_muznato"},
+        Bone = "weapon",
+        Pos = Vector(0, -1.68, 13),
+        Ang = Angle(90, 0, -90),
+        
+    }
+
+
 
 }
 

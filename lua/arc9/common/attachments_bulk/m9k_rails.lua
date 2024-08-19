@@ -1,3 +1,5 @@
+local ATT = {}
+
 ///////////////////////////////////////      r_dovetailmount_railb
 
 

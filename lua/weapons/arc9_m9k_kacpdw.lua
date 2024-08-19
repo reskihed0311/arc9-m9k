@@ -449,6 +449,16 @@ SWEP.Attachments = {
         Bone = "weapon",
         Pos = Vector(0, -0.4, 9),
         Ang = Angle(90, 0, 90),
+    },
+    {
+        
+        PrintName = "Muzzle Device",
+        DefaultName = "No Muzzle",
+        Category = {"m9k_muznato"},
+        Bone = "weapon",
+        Pos = Vector(0, -1.92, 11),
+        Ang = Angle(90, 0, -90),
+        
     }
     
 
