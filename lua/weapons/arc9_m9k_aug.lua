@@ -439,7 +439,7 @@ SWEP.Attachments = {
         DefaultName = "Iron Sights",
         Category = {"m9k_opticmedium"},
         Bone = "weapon",
-        Pos = Vector(0, -3.55, 1.5),
+        Pos = Vector(0, -3.45, 1.5),
         Ang = Angle(90, 0, -90),
 
     },

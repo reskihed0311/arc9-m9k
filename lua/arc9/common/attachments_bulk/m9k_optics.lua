@@ -148,3 +148,46 @@ ATT.SprintToFireTimeMult = 1.05
 
 
 ARC9.LoadAttachment(ATT, "r_m9k_mrs")
+
+
+//////////////////////////////////////     r_m9k_t1
+
+ATT = {}
+
+ATT.PrintName = "Aimpoint T-1"
+ATT.Description = [[EXTREMELY Small precision sight picture , made by Aimpoint.]]
+ATT.Pros = {
+    "+ Clearer sight picture"
+}
+ATT.Cons = {}
+ATT.MenuCategory = "reshed"
+ATT.Free = false
+ATT.Folder = "Reflex Sights"
+
+ATT.Category = {"m9k_opticmedium"}
+
+
+ATT.Model = "models/shared/optics/shaerd_t1_scope.mdl"
+ATT.Scale = 1
+ATT.ModelOffset = Vector(0, 0, 0)
+ATT.ModelAngleOffset = Angle(0, 0, 0)
+
+ATT.Sights = {
+    {
+        Pos = Vector(0, 10, -0.8),
+        Ang = Angle(0, 0, 0),
+        Magnification = 1.1,
+        ViewModelFOV = 56,
+        IgnoreExtra = false
+    },
+}
+
+ATT.HoloSight = true
+ATT.HoloSightReticle = Material("models/shared/atts/rets/mrs.png", "mips smooth")
+ATT.HoloSightSize = 256
+ATT.HoloSightColorable = true
+
+
+
+
+ARC9.LoadAttachment(ATT, "r_m9k_t1")
