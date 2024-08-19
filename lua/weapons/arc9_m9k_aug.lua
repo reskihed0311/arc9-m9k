@@ -439,7 +439,7 @@ SWEP.Attachments = {
         DefaultName = "Iron Sights",
         Category = {"m9k_opticmedium"},
         Bone = "weapon",
-        Pos = Vector(0, -3.45, 1.5),
+        Pos = Vector(0, -3.45, 0),
         Ang = Angle(90, 0, -90),
 
     },
@@ -452,7 +452,29 @@ SWEP.Attachments = {
         Pos = Vector(0, -1.68, 13),
         Ang = Angle(90, 0, -90),
         
-    }
+    },
+
+    {
+        
+        PrintName = "Tac - Top",
+        DefaultName = "No Muzzle",
+        Category = {"m9k_tacb"},
+        Bone = "weapon",
+        Pos = Vector(0, -3.55, 6),
+        Ang = Angle(90, 0, -90),
+        
+    },
+
+    {
+        
+        PrintName = "Tac - Side L",
+        DefaultName = "No Muzzle",
+        Category = {"m9k_tacb"},
+        Bone = "weapon",
+        Pos = Vector(0, -1.68, 13),
+        Ang = Angle(90, 0, -90),
+        
+    },
 
 
 

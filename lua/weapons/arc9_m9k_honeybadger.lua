@@ -453,7 +453,47 @@ SWEP.Attachments = {
         Bone = "weapon",
         Pos = Vector(0, -0.2, 8),
         Ang = Angle(90, 0, 90),
-    }
+    },
+    {
+        
+        PrintName = "Tac - Top",
+        DefaultName = "None",
+        Category = {"m9k_tacb"},
+        Bone = "weapon",
+        Pos = Vector(0, -2.72, 8),
+        Ang = Angle(90, 0, -90),
+        
+    },
+    {
+        
+        PrintName = "Tac - Left",
+        DefaultName = "None",
+        Category = {"m9k_tacb"},
+        Bone = "weapon",
+        Pos = Vector(0.85, -1.50, 8),
+        Ang = Angle(90, 0, 180),
+        
+    },
+    {
+        
+        PrintName = "Tac - Right",
+        DefaultName = "None",
+        Category = {"m9k_tacb"},
+        Bone = "weapon",
+        Pos = Vector(-0.85, -1.50, 8),
+        Ang = Angle(90, 0, 0),
+        
+    },
+    {
+        
+        PrintName = "Tac - Bottom",
+        DefaultName = "None",
+        Category = {"m9k_tacb"},
+        Bone = "weapon",
+        Pos = Vector(0, -0.6, 11),
+        Ang = Angle(90, 0, 90),
+        
+    },
     
 
 }
