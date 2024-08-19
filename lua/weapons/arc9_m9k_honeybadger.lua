@@ -285,7 +285,7 @@ SWEP.TriggerUpSound = ""
 SWEP.NoMuzzleEffect = false -- Disable muzzle effect entirely
 SWEP.NoFlash = false -- Disable light flash
 
-SWEP.MuzzleParticle = "muzzleflash_pistol" -- Used for some muzzle effects.
+SWEP.MuzzleParticle = "muzzleflash_suppresed" -- Used for some muzzle effects.
 
 SWEP.MuzzleEffect = "MuzzleFlash"
 SWEP.FastMuzzleEffect = nil
