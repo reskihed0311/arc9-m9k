@@ -38,9 +38,9 @@ SWEP.WorldModel = "models/weapons/w_rif_m4a1.mdl"
 SWEP.MirrorVMWM = true -- Use this to use the viewmodel as a worldmodel.
 
 SWEP.WorldModelOffset = {
-     Pos = Vector(-8, 2.5, -4.5), -- non tpik (while on ground, on npc etc)
+     Pos = Vector(-5.5, 4.5, -4.5), -- non tpik (while on ground, on npc etc)
      Ang = Angle(0, 0, 180),
-     TPIKPos = Vector(-8, 2.5, -4.5), -- arc9_tpik 1, you can make cool poses with it
+     TPIKPos = Vector(-5.5, 4.5, -4.5), -- arc9_tpik 1, you can make cool poses with it
      TPIKAng = Angle(0, 0, 180),
      Scale = 1
  }
