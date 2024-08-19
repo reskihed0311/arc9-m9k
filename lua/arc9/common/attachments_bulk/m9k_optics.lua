@@ -334,3 +334,46 @@ ATT.RTScopeFLIRCCCold = {
 ATT.RTScopeMotionBlur = true
 
 ARC9.LoadAttachment(ATT, "r_m9k_vampireflir")
+
+
+//////////////////////////////////////     r_m9k_eotech552
+
+ATT = {}
+
+ATT.PrintName = "EOTECH 552"
+ATT.Description = [[guh eo tech.]]
+ATT.Pros = {
+    "+ Clearer sight picture"
+}
+ATT.Cons = {}
+ATT.MenuCategory = "reshed"
+ATT.Free = false
+ATT.Folder = "Reflex Sights"
+
+ATT.Category = {"m9k_opticmedium"}
+
+
+ATT.Model = "models/shared/optics/shaerd_eotech_scope.mdl"
+ATT.Scale = 1
+ATT.ModelOffset = Vector(0, 0, 0)
+ATT.ModelAngleOffset = Angle(0, 0, 0)
+
+ATT.Sights = {
+    {
+        Pos = Vector(0, 10, -1.45),
+        Ang = Angle(0, 0, 0),
+        Magnification = 1.1,
+        ViewModelFOV = 56,
+        IgnoreExtra = false
+    },
+}
+
+ATT.HoloSight = true
+ATT.HoloSightReticle = Material("models/shared/atts/rets/eotech.png", "mips smooth")
+ATT.HoloSightSize = 350
+ATT.HoloSightColorable = true
+
+
+
+
+ARC9.LoadAttachment(ATT, "r_m9k_eotech552")

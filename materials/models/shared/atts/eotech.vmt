@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"models\shared\atts\eotech_d"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models\shared\atts\eotech_s"
+    "$translucent" "1"
+}
