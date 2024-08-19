@@ -331,6 +331,9 @@ ATT.RTScopeFLIRCCCold = {
 }
 
 
+ATT.AimDownSightsTimeMult = 2.5
+ATT.SprintToFireTimeMult = 2.3
+
 ATT.RTScopeMotionBlur = true
 
 ARC9.LoadAttachment(ATT, "r_m9k_vampireflir")
