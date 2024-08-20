@@ -20,7 +20,7 @@ ATT.Category = {"m9k_opticbig"}
 
 ATT.Model = "models/shared/optics/shaerd_m82_scope.mdl"
 ATT.Scale = 1
-ATT.ModelOffset = Vector(-1.5, 0, -0.1)
+ATT.ModelOffset = Vector(0.35, 0, -0.1)
 ATT.ModelAngleOffset = Angle(0, 0, 0)
 
 ATT.Sights = {
@@ -276,7 +276,7 @@ ATT.Folder = "Special Optics"
 -- Allows a custom sight position to be defined
 ATT.Sights = {
     {
-        Pos = Vector(0, 8, -1.60),
+        Pos = Vector(0, 8.5, -1.60),
         Ang = Angle(0, 0, 0),
         Magnification = 1.5,
         ViewModelFOV = 60
@@ -331,8 +331,8 @@ ATT.RTScopeFLIRCCCold = {
 }
 
 
-ATT.AimDownSightsTimeMult = 2.5
-ATT.SprintToFireTimeMult = 2.3
+ATT.AimDownSightsTimeMult = 2
+ATT.SprintToFireTimeMult = 1.8
 
 ATT.RTScopeMotionBlur = true
 
