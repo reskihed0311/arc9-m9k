@@ -24,8 +24,7 @@ SWEP.Credits = {   -- Number in end of title orders line in list (otherwise they
 }
 
 
-SWEP.Description = [[The Winchester Model 1897, more commonly known as the Trench Gun, was a pump-action shotgun designed by John Browning and manufactured from 1897 to 1957 by the Winchester Repeating Arms Company. 
-Developed from the Model 1893, the Model 1897 was a highly successful design and saw use in a number of conflicts over its long service life.]]
+SWEP.Description = [[The SPAS-12 (Special Purpose Automatic Shotgun) is an Italian dual-mode shotgun that was produced by Franchi S.p.A.]]
 
 
 SWEP.UseHands = true -- Same as weapon_base
