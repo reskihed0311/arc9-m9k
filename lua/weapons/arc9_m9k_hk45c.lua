@@ -246,7 +246,7 @@ SWEP.ShootPitchVariation = 5 -- Not multiplied, but actually just added/subtract
 
 SWEP.ShootSound = "weapons/hk45/hk45-1.wav"                            -- Fire
 
-SWEP.ShootSoundSilenced = ""                    -- Fire silenced
+SWEP.ShootSoundSilenced = "weapons/supp_library/45pistol.wav"                    -- Fire silenced
 
 
 
@@ -430,6 +430,16 @@ SWEP.Attachments = {
         
     },
 
+    {
+        
+        PrintName = "Muzzle Device",
+        DefaultName = "None",
+        Category = {"m9k_muzpistol"},
+        Bone = "weapon",
+        Pos = Vector(0, -2.3, 4.22),
+        Ang = Angle(90, 0, -90),
+        
+    },
 
 }
 

@@ -42,6 +42,46 @@ ATT.MuzzleDevice = true
 ARC9.LoadAttachment(ATT, "r_m9k_pbs1")
 
 
+/////////////////////////////////// r_m9k_ospreynato
+
+
+
+-------------------------------------------------------------------------------
+ATT = {}
+
+ATT.PrintName = [[OSPREY Pistol Suppresor]]
+ATT.CompactName = [[OSPREY]]
+ATT.Description = [[Noise cancellation muzzle device compatible with .45 ACP , 9x19MM , and various other pistol calibers.]]
+ATT.MenuCategory = "reshed"
+ATT.SortOrder = 1
+ATT.AutoStats = true
+ATT.Category = {"m9k_muzpistol"}
+ATT.Scale = 1
+ATT.Folder = "Silencers"
+
+ATT.Model =  "models/shared/muzzle/shared_pistol_osprey_supp.mdl"
+
+
+ATT.RecoilMult = 0.8
+ATT.RangeMaxMult = 1.05
+ATT.SpreadAdd = -0.007
+ATT.DamageMaxMult = 0.95
+ATT.DamageMinMult = 0.95
+
+ATT.AimDownSightsTimeMult = 1.10
+ATT.SprintToFireTimeMult = 1.10
+
+
+ATT.Silencer = true
+ATT.MuzzleParticleOverride = "muzzleflash_suppressed"
+ATT.MuzzleParticleOverride_Priority = 10
+
+ATT.MuzzleDevice = true
+
+ARC9.LoadAttachment(ATT, "r_m9k_pbs1")
+
+
+
 
 /////////////////////////////////// r_m9k_monolithnato
 
