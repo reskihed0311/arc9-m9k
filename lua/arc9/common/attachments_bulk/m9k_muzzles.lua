@@ -78,7 +78,7 @@ ATT.MuzzleParticleOverride_Priority = 10
 
 ATT.MuzzleDevice = true
 
-ARC9.LoadAttachment(ATT, "r_m9k_pbs1")
+ARC9.LoadAttachment(ATT, "r_m9k_ospreypistol")
 
 
 
