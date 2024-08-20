@@ -419,6 +419,17 @@ SWEP.ReloadHideBoneTables = {
 
 SWEP.Attachments = {
 
+    {
+        
+        PrintName = "Tac - Bottom",
+        DefaultName = "None",
+        Category = {"m9k_tacs"},
+        Bone = "weapon",
+        Pos = Vector(0, -1, 3.2),
+        Ang = Angle(90, 0, 90),
+        
+    },
+
 
 }
 

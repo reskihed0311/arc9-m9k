@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"models\shared\atts\laser_pistol_d"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models\shared\atts\laser_pistol_s"
+}

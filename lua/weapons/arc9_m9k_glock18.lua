@@ -219,7 +219,7 @@ SWEP.FreeAimRadiusMultSights = 0
 
 SWEP.SwayMultSights = 0
 
-SWEP.AimDownSightsTime = 0.15 -- How long it takes to go from hip fire to aiming down sights.
+SWEP.AimDownSightsTime = 0.25 -- How long it takes to go from hip fire to aiming down sights.
 SWEP.SprintToFireTime = 0.05 -- How long it takes to go from sprinting to being able to fire.
 
 SWEP.MagnificationZoomSpeed = 1 -- Multiply how quickly the FOV adjusts itself when entering or exiting the sights, or when toggling from one sight to another.
@@ -423,6 +423,17 @@ SWEP.ReloadHideBoneTables = {
 
 
 SWEP.Attachments = {
+
+    {
+        
+        PrintName = "Tac - Bottom",
+        DefaultName = "None",
+        Category = {"m9k_tacs"},
+        Bone = "weapon",
+        Pos = Vector(0, -0.6, 2.7),
+        Ang = Angle(90, 0, 90),
+        
+    },
 
 }
 
