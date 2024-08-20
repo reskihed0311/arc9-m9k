@@ -2,6 +2,8 @@ AddCSLuaFile()
 
 SWEP.Base = "arc9_base"
 
+SWEP.NoTPIKVMPos = true
+
 SWEP.Spawnable = true
 SWEP.Category = "ARC9 - Murderthon9000"
 SWEP.SubCategory = "Assault Rifles"
