@@ -145,10 +145,10 @@ SWEP.DryFireDelay = false -- Set to set time, otherwise uses animation length--]
 
 -------------------------- FIREMODES
 
-SWEP.RPM = 210
+SWEP.RPM = 300
 
 
-
+SWEP.SlamFire = true -- Manual action weapons cycle themselves
 -- Works different to ArcCW
 
 -- -1: Automatic
@@ -159,7 +159,7 @@ SWEP.RPM = 210
 -- n: n-round burst.
 SWEP.Firemodes = {
     {
-        Mode = 1,
+        Mode = -1,
         -- add other attachment modifiers
     }
 }
