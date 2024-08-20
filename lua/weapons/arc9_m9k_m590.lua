@@ -394,8 +394,8 @@ SWEP.HeightOverBore = 1
 -------------------------- HoldTypes
 
 SWEP.HoldType = "ar2"
-SWEP.HoldTypeSprint = "ar2"
-SWEP.HoldTypeHolstered = nil
+SWEP.HoldTypeSprint = "passive"
+SWEP.HoldTypeHolstered = "passive"
 SWEP.HoldTypeSights = "ar2"
 SWEP.HoldTypeCustomize = "slam"
 SWEP.HoldTypeBlindfire = "pistol"

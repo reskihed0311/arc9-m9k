@@ -36,9 +36,9 @@ SWEP.WorldModel = "models/weapons/w_pist_usp.mdl"
 SWEP.MirrorVMWM = true -- Use this to use the viewmodel as a worldmodel.
 
 SWEP.WorldModelOffset = {
-     Pos = Vector(-5,4, -5), -- non tpik (while on ground, on npc etc)
+     Pos = Vector(-8.9,4.5, -5), -- non tpik (while on ground, on npc etc)
      Ang = Angle(0, 0, 180),
-     TPIKPos = Vector(-5,4, -5), -- arc9_tpik 1, you can make cool poses with it
+     TPIKPos = Vector(-8.9,4.5, -5), -- arc9_tpik 1, you can make cool poses with it
      TPIKAng = Angle(0, 0, 180),
      Scale = 1
  }
@@ -387,8 +387,8 @@ SWEP.HeightOverBore = 1
 -------------------------- HoldTypes
 
 SWEP.HoldType = "ar2"
-SWEP.HoldTypeSprint = "ar2"
-SWEP.HoldTypeHolstered = nil
+SWEP.HoldTypeSprint = "passive"
+SWEP.HoldTypeHolstered = "passive"
 SWEP.HoldTypeSights = "ar2"
 SWEP.HoldTypeCustomize = "slam"
 SWEP.HoldTypeBlindfire = "pistol"
