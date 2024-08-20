@@ -42,7 +42,7 @@ SWEP.WorldModelOffset = {
      Ang = Angle(0, 0, 180),
      TPIKPos = Vector(-5,4, -5), -- arc9_tpik 1, you can make cool poses with it
      TPIKAng = Angle(0, 0, 180),
-     Scale = 0.85
+     Scale = 0.79
  }
 
 SWEP.Crosshair = true

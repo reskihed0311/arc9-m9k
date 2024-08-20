@@ -143,7 +143,7 @@ SWEP.DryFireDelay = false -- Set to set time, otherwise uses animation length--]
 
 -------------------------- FIREMODES
 
-SWEP.RPM = 210
+SWEP.RPM = 170
 
 
 

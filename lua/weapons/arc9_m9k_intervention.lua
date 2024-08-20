@@ -222,7 +222,7 @@ SWEP.NoSprintWhenLocked = false -- You cannot sprint while reloading with this g
 
 
 
-SWEP.Speed = 1
+SWEP.Speed = 0.7
 
 SWEP.SpeedMult = 1
 SWEP.SpeedMultSights = 0.9

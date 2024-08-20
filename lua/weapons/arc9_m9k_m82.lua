@@ -65,7 +65,7 @@ SWEP.CurvedDamageScaling = false -- If true, damage will scale in a quadratic cu
 SWEP.Num = 1 -- Number of bullets to shoot
 
 
-SWEP.Penetration = 0 -- Units of wood that can be penetrated by this gun.
+SWEP.Penetration = 0.5 -- Units of wood that can be penetrated by this gun.
 
 
 SWEP.RicochetAngleMax = 0 -- Maximum angle at which a ricochet can occur. Between 1 and 90. Angle of 0 is impossible but would theoretically always ricochet.
@@ -224,7 +224,7 @@ SWEP.NoSprintWhenLocked = false -- You cannot sprint while reloading with this g
 
 
 
-SWEP.Speed = 1
+SWEP.Speed = 0.5
 
 SWEP.SpeedMult = 1
 SWEP.SpeedMultSights = 0.9

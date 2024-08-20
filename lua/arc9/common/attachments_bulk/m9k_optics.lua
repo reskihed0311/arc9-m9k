@@ -380,3 +380,53 @@ ATT.HoloSightColorable = true
 
 
 ARC9.LoadAttachment(ATT, "r_m9k_eotech552")
+//////////////////////////////////////     r_m9k_psoscope
+
+ATT = {}
+
+ATT.PrintName = "PSO-1"
+ATT.Description = [[Dove Tail Mounted AK Scope.]]
+ATT.Pros = {
+    "+ 4x Zoom",
+    "+ Clearer sight picture"
+}
+ATT.Cons = {}
+ATT.MenuCategory = "reshed"
+ATT.Free = false
+ATT.Folder = "Dovetail Magnified Optics"
+
+ATT.Category = {"m9k_dovetail"}
+
+
+ATT.Model = "models/shared/optics/shaerd_pso1_scope.mdl"
+ATT.Scale = 1
+ATT.ModelOffset = Vector(-0.8, 0.80, 2.35)
+ATT.ModelAngleOffset = Angle(0, 0, 0)
+
+ATT.Sights = {
+    {
+        Pos = Vector(0.24, 9.2, -0.85),
+        Ang = Angle(0, 0, 0),
+        ViewModelFOV = 60,
+        RTScopeFOV = 20,
+        Magnification = 1,
+        IgnoreExtra = true
+    },
+}
+
+ATT.RTScope = true
+ATT.RTScopeSubmatIndex = 1
+--ATT.RTScopeFOV = 8
+ATT.RTScopeRes = 512
+-- ATT.RTScopeSurface = Material("models/weapons/arc9/mw3/mw3_optics/hamr_lens")
+ATT.RTScopeReticle = Material("models/shared/atts/rets/pso.png", "mips smooth")
+ATT.RTScopeReticleScale = 0.95
+ATT.RTScopeShadowIntensity = 1
+ATT.RTScopeNoPP = false
+ATT.RTScopeColorable = true
+
+ATT.AimDownSightsTimeMult = 1.3
+ATT.SprintToFireTimeMult = 1.3
+
+
+ARC9.LoadAttachment(ATT, "r_m9k_psoscope")

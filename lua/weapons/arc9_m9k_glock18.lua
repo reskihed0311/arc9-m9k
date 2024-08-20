@@ -158,6 +158,10 @@ SWEP.Firemodes = {
     {
         Mode = -1,
         -- add other attachment modifiers
+    },
+    {
+        Mode = 1,
+        -- add other attachment modifiers
     }
 }
 
