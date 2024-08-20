@@ -159,6 +159,7 @@ SWEP.SlamFire = true -- Manual action weapons cycle themselves
 -- n: n-round burst.
 SWEP.Firemodes = {
     {
+        PrintName = "SLAM",
         Mode = -1,
         -- add other attachment modifiers
     }
