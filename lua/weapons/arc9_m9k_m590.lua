@@ -53,7 +53,7 @@ SWEP.ViewModelFOVBase = 70-- Set to override viewmodel FOV
 
 
 
-SWEP.DamageMax = 21 -- Damage done at point blank range
+SWEP.DamageMax = 15 -- Damage done at point blank range
 SWEP.DamageMin = 8 -- Damage done at maximum range
 SWEP.ImpactForce = 0 -- Force that bullets apply on hit
 
