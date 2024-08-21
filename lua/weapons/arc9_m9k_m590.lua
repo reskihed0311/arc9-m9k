@@ -53,8 +53,8 @@ SWEP.ViewModelFOVBase = 70-- Set to override viewmodel FOV
 
 
 
-SWEP.DamageMax = 19 -- Damage done at point blank range
-SWEP.DamageMin = 1 -- Damage done at maximum range
+SWEP.DamageMax = 21 -- Damage done at point blank range
+SWEP.DamageMin = 8 -- Damage done at maximum range
 SWEP.ImpactForce = 0 -- Force that bullets apply on hit
 
 
@@ -179,7 +179,7 @@ SWEP.RecoilLookupTable = nil -- Use to set specific values for predictible recoi
 SWEP.RecoilLookupTableOverrun = nil -- Repeatedly take values from this table if we run out in the main table
 
 -- General recoil multiplier
-SWEP.Recoil = 5
+SWEP.Recoil = 2
 
 -- These multipliers affect the predictible recoil by making the pattern taller, shorter, wider, or thinner.
 SWEP.RecoilUp = 2 -- Multiplier for vertical recoil
@@ -196,13 +196,13 @@ SWEP.RecoilAutoControl = 0 -- Multiplier for automatic recoil control.
 
 -------------------------- SPREAD
 
-SWEP.Spread = 0.02
+SWEP.Spread = 0.001
 
 SWEP.UseDispersion = true -- Use this for shotguns - Additional random angle to spread, same for each pellet
-SWEP.DispersionSpread = 0.001-- SWEP.Spread will be clump spread, and this will be dispersion of clump
+SWEP.DispersionSpread = 0.0005-- SWEP.Spread will be clump spread, and this will be dispersion of clump
 
 
-SWEP.SpreadAddMove = 0.03-- Applied when speed is equal to walking speed.
+SWEP.SpreadAddMove = 0.010 --Applied when speed is equal to walking speed.
 SWEP.SpreadAddMidAir = 0.035 -- Applied when not touching the ground.
 SWEP.SpreadAddHipFire = 0.025 -- Applied when not sighted.
 SWEP.SpreadAddSighted = 0 -- Applied when sighted. Can be negative.

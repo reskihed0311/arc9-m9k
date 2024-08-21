@@ -175,7 +175,7 @@ SWEP.RecoilLookupTable = nil -- Use to set specific values for predictible recoi
 SWEP.RecoilLookupTableOverrun = nil -- Repeatedly take values from this table if we run out in the main table
 
 -- General recoil multiplier
-SWEP.Recoil = 4
+SWEP.Recoil = 2.5
 
 -- These multipliers affect the predictible recoil by making the pattern taller, shorter, wider, or thinner.
 SWEP.RecoilUp = 2 -- Multiplier for vertical recoil
@@ -224,7 +224,7 @@ SWEP.NoSprintWhenLocked = false -- You cannot sprint while reloading with this g
 
 
 
-SWEP.Speed = 0.7
+SWEP.Speed = 0.8
 
 SWEP.SpeedMult = 1
 SWEP.SpeedMultSights = 0.9
