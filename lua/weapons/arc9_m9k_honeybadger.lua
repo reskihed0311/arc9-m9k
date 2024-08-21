@@ -183,10 +183,10 @@ SWEP.RecoilLookupTable = nil -- Use to set specific values for predictible recoi
 SWEP.RecoilLookupTableOverrun = nil -- Repeatedly take values from this table if we run out in the main table
 
 -- General recoil multiplier
-SWEP.Recoil = 1.1
+SWEP.Recoil = 1.23
 
 -- These multipliers affect the predictible recoil by making the pattern taller, shorter, wider, or thinner.
-SWEP.RecoilUp = 0.55 -- Multiplier for vertical recoil
+SWEP.RecoilUp = 0.8 -- Multiplier for vertical recoil
 SWEP.RecoilSide = 0.15 -- Multiplier for vertical recoil
 
 -- These values determine how much extra movement is applied to the recoil entirely randomly, like in a circle.
