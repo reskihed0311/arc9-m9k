@@ -95,3 +95,52 @@ ATT.ModelAngleOffset = Angle(0, 0, 180)
 
 
 ARC9.LoadAttachment(ATT, "r_m9k_quickaimlaser")
+
+
+///////////////////////////////////////      r_m9k_mediumlight
+
+
+ATT = {}
+
+ATT.PrintName = "Quick Aim Laser"
+ATT.Description = [[Makes you aim down faster! Somehow!]]
+
+
+ATT.SortOrder = 0
+ATT.Category = {"m9k_tacs", "m9k_tacb"}
+ATT.MenuCategory = "reshed"
+ATT.Model = "models/shared/tac/shared_tac_flashlight_1.mdl"
+ATT.Folder = "Flashlights"
+
+ATT.AimDownSightsTimeMult = 0.50
+ATT.SpreadMult = 1.25
+
+ATT.ToggleOnF = true -- This attachment is toggleable with the flashlight key.
+ATT.ToggleStats = {
+    {
+        PrintName = "On",
+        Flashlight = true,
+        FlashlightColor = Color(55, 55, 55),
+        FlashlightMaterial = "effects/flashlight001",
+        FlashlightDistance = 2048,
+        FlashlightFOV = 50,
+        FlashlightAttachment = 1,
+        Flare = true,
+        FlareColor = Color(255, 255, 255),
+        FlareSize = 300,
+        FlareAttachment = 1
+    },
+    {
+        PrintName = "Off"
+    }
+}
+
+
+
+ATT.Scale = 1
+
+ATT.ModelOffset = Vector(0, 0, 0)
+ATT.ModelAngleOffset = Angle(0, 0, 180)
+
+
+ARC9.LoadAttachment(ATT, "r_m9k_mediumlight")
