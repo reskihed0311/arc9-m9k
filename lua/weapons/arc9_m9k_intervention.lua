@@ -10,7 +10,7 @@ SWEP.SubCategory = "Sniper Rifles"
 SWEP.AdminOnly = false
 SWEP.Slot = 3
 
-
+SWEP.RecoilKick = 0 -- Camera recoil
 
 SWEP.PrintName = "CheyTac Intervention"
 

@@ -12,7 +12,7 @@ SWEP.AdminOnly = false
 
 SWEP.Slot = 2
 
-
+SWEP.RecoilKick = 0 -- Camera recoil
 
 SWEP.PrintName = "AMD-65"
 

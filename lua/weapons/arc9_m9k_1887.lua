@@ -11,7 +11,7 @@ SWEP.AdminOnly = false
 
 SWEP.Slot = 3
 
-
+SWEP.RecoilKick = 0 -- Camera recoil
 
 SWEP.PrintName = "Winchester 1887"
 

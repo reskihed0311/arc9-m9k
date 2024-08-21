@@ -10,7 +10,7 @@ SWEP.SubCategory = "Pistols"
 SWEP.AdminOnly = false
 SWEP.Slot = 1
 
-
+SWEP.RecoilKick = 0 -- Camera recoil
 
 SWEP.PrintName = "H&K45-C"
 
