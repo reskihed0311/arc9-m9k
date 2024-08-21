@@ -1,0 +1,10 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\shared\atts\acog"
+	"$bumpmap" "models\shared\atts\acog_norm"
+	"$normalmapalphaenvmapmask" "1"
+	"$phong" 		"1"
+	"$phongexponent" 	"40"
+	"$phongboost" "0.9"
+	"$phongfresnelranges" "[1 3 6]"
+}

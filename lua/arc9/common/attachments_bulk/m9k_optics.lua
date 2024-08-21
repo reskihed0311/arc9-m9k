@@ -255,6 +255,65 @@ ATT.SprintToFireTimeMult = 1.20
 
 ARC9.LoadAttachment(ATT, "r_m9k_hamr")
 
+///////////////////////////////////////      r_m9k_acog
+
+
+ATT = {}
+
+ATT.PrintName = "ACOG"
+ATT.Description = [[The classic magnifier. Features backup irons!]]
+ATT.SortOrder = 0
+
+ATT.Model = "models/shared/optics/shaerd_hamr_scope.mdl"
+
+ATT.MenuCategory = "reshed"
+ATT.Category = {"m9k_opticmedium"}
+ATT.Folder = "Medium Range Optics"
+
+
+
+ATT.FoldSights = true
+
+ATT.Sights = {
+    {
+        Pos = Vector(0, 10, -1.80),
+        Ang = Angle(0, 0, 0),
+        Magnification = 1.15,
+        ViewModelFOV = 36,
+        RTScopeFOV = 36/4,
+    
+    },
+    {
+        Pos = Vector(0, 8, -3.35),
+        Ang = Angle(0, 0, 0),
+        Magnification = 1.1,
+        ViewModelFOV = 60,
+        Disassociate = false,
+
+    },
+}
+
+
+
+
+ATT.RTScope = true
+ATT.RTScopeSubmatIndex = 4
+ATT.RTScopeFOV = 12
+ATT.RTScopeReticle = Material("models/shared/atts/rets/acog.png", "mips smooth")
+ATT.RTScopeReticleScale = 1.1
+ATT.RTScopeColorable = true
+ATT.RTScopeShadowIntensity = 10
+ATT.RTScopeBlackBox = true 
+ATT.RTScopeBlackBoxShadow = true 
+
+ATT.ScopeScreenRatio = 0.66
+
+ATT.AimDownSightsTimeMult = 1.20
+ATT.SprintToFireTimeMult = 1.20
+
+
+ARC9.LoadAttachment(ATT, "r_m9k_acog")
+
 
 ///////////////////////////////////////      r_m9k_vampireflir
 
