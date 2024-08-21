@@ -102,8 +102,8 @@ ARC9.LoadAttachment(ATT, "r_m9k_quickaimlaser")
 
 ATT = {}
 
-ATT.PrintName = "Quick Aim Laser"
-ATT.Description = [[Makes you aim down faster! Somehow!]]
+ATT.PrintName = "Med Power Flashlight"
+ATT.Description = [[Makes you easier to see in the dark! And you also see things easier in the dark.]]
 
 
 ATT.SortOrder = 0
