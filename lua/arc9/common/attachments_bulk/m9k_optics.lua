@@ -264,19 +264,19 @@ ATT.PrintName = "ACOG"
 ATT.Description = [[The classic magnifier. Features backup irons!]]
 ATT.SortOrder = 0
 
-ATT.Model = "models/shared/optics/shaerd_hamr_scope.mdl"
+ATT.Model = "models/shared/optics/shaerd_acog_scope.mdl"
 
 ATT.MenuCategory = "reshed"
 ATT.Category = {"m9k_opticmedium"}
 ATT.Folder = "Medium Range Optics"
 
-
+ATT.ModelOffset = Vector(-0.25, 0, 0.01)
 
 ATT.FoldSights = true
 
 ATT.Sights = {
     {
-        Pos = Vector(0, 10, -1.80),
+        Pos = Vector(0, 10, -1.28),
         Ang = Angle(0, 0, 0),
         Magnification = 1.15,
         ViewModelFOV = 36,
@@ -284,10 +284,10 @@ ATT.Sights = {
     
     },
     {
-        Pos = Vector(0, 8, -3.35),
+        Pos = Vector(0, 10, -2.2),
         Ang = Angle(0, 0, 0),
         Magnification = 1.1,
-        ViewModelFOV = 60,
+        ViewModelFOV = 50,
         Disassociate = false,
 
     },
@@ -308,8 +308,8 @@ ATT.RTScopeBlackBoxShadow = true
 
 ATT.ScopeScreenRatio = 0.66
 
-ATT.AimDownSightsTimeMult = 1.20
-ATT.SprintToFireTimeMult = 1.20
+ATT.AimDownSightsTimeMult = 1.15
+ATT.SprintToFireTimeMult = 1.10
 
 
 ARC9.LoadAttachment(ATT, "r_m9k_acog")
