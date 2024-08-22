@@ -1,7 +1,7 @@
 VertexLitGeneric
 {
-    "$basetexture"    "models\weapons\v_models\G36c\frame"
-    "$bumpmap"     "models\weapons\v_models\G36c\frame_Normal"
+    "$basetexture"    "models\weapons\arc9_m9k\g36c\frame"
+    "$bumpmap"     "models\weapons\arc9_m9k\g36c\frame_Normal"
      "$halflambert" 1
     "$nodecal" "1"
     "$model" "1"
