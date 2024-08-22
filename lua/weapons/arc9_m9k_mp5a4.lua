@@ -12,7 +12,7 @@ SWEP.Slot = 2
 
 SWEP.RecoilKick = 0 -- Camera recoil
 
-SWEP.PrintName = "H&K MP5A1"
+SWEP.PrintName = "H&K MP5A4"
 
 
 SWEP.Class = "Sub-Machine Gun"
