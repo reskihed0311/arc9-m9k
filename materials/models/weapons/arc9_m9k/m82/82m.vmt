@@ -8,5 +8,15 @@
     "$phongboost" "1"
     "$phongfresnelranges"    "[1 6 12]"
     "$phongalbedotint" "1"
+		    "$detailblendmode" "1"
+    "$detailblendfactor" "0.2"
+
+ Proxies {
+    CustomCamo {
+        camoTexture $detail
+        camoScale $detailscale
+        blend $detailblendfactor
+    }
+}
 
 }

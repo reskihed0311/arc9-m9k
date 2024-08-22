@@ -4,7 +4,10 @@
     "$bumpmap"     "models\weapons\arc9_m9k\m4a1\fore_normal"
     "$normalmapalphaenvmapmask" "1"
 
- Proxies {
+	  "$detailblendmode" "3"
+    "$detailblendfactor" "0.1"
+	
+	Proxies {
     CustomCamo {
         camoTexture $detail
         camoScale $detailscale

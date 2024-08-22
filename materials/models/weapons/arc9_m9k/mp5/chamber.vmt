@@ -5,4 +5,14 @@ VertexLitGeneric
 
      "$normalmapalphaenvmapmask" "0"
     "$nocull" "1"
+	    "$detailblendmode" "1"
+    "$detailblendfactor" "0.2"
+
+ Proxies {
+    CustomCamo {
+        camoTexture $detail
+        camoScale $detailscale
+        blend $detailblendfactor
+    }
+}
 }

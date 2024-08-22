@@ -15,4 +15,15 @@ VertexLitGeneric
 	"$rimlight" "1"
 	"$rimlightexponent" "42"
 	"$rimlightboost" "0.3"
+	
+  "$detailblendmode" "3"
+    "$detailblendfactor" "0.1"
+	
+	Proxies {
+    CustomCamo {
+        camoTexture $detail
+        camoScale $detailscale
+        blend $detailblendfactor
+    }
+}
 }

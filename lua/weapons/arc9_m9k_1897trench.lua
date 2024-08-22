@@ -424,6 +424,21 @@ SWEP.ReloadHideBoneTables = {
 
 SWEP.Attachments = {
 
+    {
+        PrintName = "Sticker A",
+        StickerModel = "models/stickers/arc9_m9k_stickersa_1897.mdl",
+        Category = "stickers",
+        Bone = "weapon",
+        Pos = Vector(0, 0, 0),
+    },
+    {
+        PrintName = "Camo",
+        Category = {"universal_camo"},
+        CosmeticOnly = true,
+        Bone = "weapon",
+        Pos = Vector(0, 0, 2.75),
+    }
+
 }
 
 SWEP.ShotgunReload = true -- Weapon reloads like shotgun. Uses insert_1, insert_2, etc animations instead.

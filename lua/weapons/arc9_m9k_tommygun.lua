@@ -444,6 +444,21 @@ SWEP.Attachments = {
         Pos = Vector(0, -1.8, 14.5),
         Ang = Angle(90, 0, -90),
     },
+    {
+        PrintName = "Sticker A",
+        StickerModel = "models/stickers/arc9_m9k_stickersa_tommygun.mdl",
+        Category = "stickers",
+        Bone = "weapon",
+        Pos = Vector(0, 0, 0),
+    },
+    {
+        PrintName = "Camo",
+        Category = {"universal_camo"},
+        CosmeticOnly = true,
+        Bone = "weapon",
+        Pos = Vector(0, 0, 2.75),
+    },
+
 
 
 }
@@ -537,7 +552,7 @@ SWEP.Animations = {
     ["holster_empty"] = {
         Source = "holster_empty",
     },
-    ["holste"] = {
-        Source = "holster_empty",
+    ["holster"] = {
+        Source = "holster",
     },
     }

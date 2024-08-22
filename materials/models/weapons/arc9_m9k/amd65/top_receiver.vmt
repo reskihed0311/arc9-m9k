@@ -12,4 +12,14 @@ VertexLitGeneric
     "$phongalbedotint" "1"
 	"$nocull" "1"
     //receiver
+		    "$detailblendmode" "1"
+    "$detailblendfactor" "0.2"
+
+ Proxies {
+    CustomCamo {
+        camoTexture $detail
+        camoScale $detailscale
+        blend $detailblendfactor
+    }
+}
 }

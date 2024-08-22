@@ -2,4 +2,17 @@ VertexLitGeneric
 {
     "$baseTexture" "models\weapons\arc9_m9k\tommygun\sights512"
     "$bumpmap" "models\weapons\arc9_m9k\tommygun\sights512_normal"
+	
+	
+	
+		  "$detailblendmode" "3"
+    "$detailblendfactor" "0.5"
+	
+	Proxies {
+    CustomCamo {
+        camoTexture $detail
+        camoScale $detailscale
+        blend $detailblendfactor
+    }
+}
 }

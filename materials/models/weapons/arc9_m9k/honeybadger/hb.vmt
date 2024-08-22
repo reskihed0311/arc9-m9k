@@ -21,4 +21,14 @@
      "$rimlightexponent" "88"
      "$rimlightboost""2"
      "$rimmask" "1"
+	 	    "$detailblendmode" "1"
+    "$detailblendfactor" "0.2"
+
+ Proxies {
+    CustomCamo {
+        camoTexture $detail
+        camoScale $detailscale
+        blend $detailblendfactor
+    }
+}
 }

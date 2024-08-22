@@ -15,4 +15,6 @@ VertexLitGeneric
 	"$rimlight" "1"
 	"$rimlightexponent" "42"
 	"$rimlightboost" "0.3"
+	
+
 }

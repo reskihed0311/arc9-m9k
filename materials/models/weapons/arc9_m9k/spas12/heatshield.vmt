@@ -3,4 +3,14 @@ VertexLitGeneric
     "$baseTexture" "models\weapons\arc9_m9k\spas12\heatshield"
     "$envmap" "env_cubemap"
     "$envmapmask" "models\weapons\arc9_m9k\spas12\heatshield_ref"
+		    "$detailblendmode" "1"
+    "$detailblendfactor" "0.2"
+
+ Proxies {
+    CustomCamo {
+        camoTexture $detail
+        camoScale $detailscale
+        blend $detailblendfactor
+    }
+}
 }

@@ -439,6 +439,20 @@ SWEP.Attachments = {
         Pos = Vector(0.8, -1.1, 1.1),
         Ang = Angle(90, 0, -90),
         
+    },
+    {
+        PrintName = "Sticker A",
+        StickerModel = "models/stickers/arc9_m9k_stickersa_val.mdl",
+        Category = "stickers",
+        Bone = "weapon",
+        Pos = Vector(0, 0, 0),
+    },
+    {
+        PrintName = "Camo",
+        Category = {"universal_camo"},
+        CosmeticOnly = true,
+        Bone = "weapon",
+        Pos = Vector(0, 0, 2.75),
     }
 
 

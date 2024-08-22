@@ -1,4 +1,14 @@
 VertexLitGeneric
 {
 	"$baseTexture" "models\weapons\arc9_m9k\kacpdw\reclower"
+		    "$detailblendmode" "1"
+    "$detailblendfactor" "0.5"
+
+ Proxies {
+    CustomCamo {
+        camoTexture $detail
+        camoScale $detailscale
+        blend $detailblendfactor
+    }
+}
 }

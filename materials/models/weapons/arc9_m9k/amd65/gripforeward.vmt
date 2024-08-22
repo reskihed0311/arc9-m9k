@@ -11,4 +11,14 @@ VertexLitGeneric
     "$phongfresnelranges" "[4 8 16]"
     "$phongalbedotint" "1"
     //foreward
+		    "$detailblendmode" "1"
+    "$detailblendfactor" "0.2"
+
+ Proxies {
+    CustomCamo {
+        camoTexture $detail
+        camoScale $detailscale
+        blend $detailblendfactor
+    }
+}
 }

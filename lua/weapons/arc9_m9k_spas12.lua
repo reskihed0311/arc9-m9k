@@ -176,7 +176,7 @@ SWEP.RecoilLookupTable = nil -- Use to set specific values for predictible recoi
 SWEP.RecoilLookupTableOverrun = nil -- Repeatedly take values from this table if we run out in the main table
 
 -- General recoil multiplier
-SWEP.Recoil = 5
+SWEP.Recoil = 2
 
 -- These multipliers affect the predictible recoil by making the pattern taller, shorter, wider, or thinner.
 SWEP.RecoilUp = 2 -- Multiplier for vertical recoil
@@ -423,6 +423,22 @@ SWEP.ReloadHideBoneTables = {
 
 
 SWEP.Attachments = {
+
+    {
+        PrintName = "Sticker A",
+        StickerModel = "models/stickers/arc9_m9k_stickersa_spas12.mdl",
+        Category = "stickers",
+        Bone = "weapon",
+        Pos = Vector(0, 0, 0),
+    },
+    {
+        PrintName = "Camo",
+        Category = {"universal_camo"},
+        CosmeticOnly = true,
+        Bone = "weapon",
+        Pos = Vector(0, 0, 2.75),
+    }
+
 
 }
 
