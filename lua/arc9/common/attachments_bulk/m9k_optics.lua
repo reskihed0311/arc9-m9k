@@ -243,7 +243,7 @@ ATT.RTScopeFOV = 12
 ATT.RTScopeReticle = Material("models/shared/atts/rets/hamr.png", "mips smooth")
 ATT.RTScopeReticleScale = 1.1
 ATT.RTScopeColorable = true
-ATT.RTScopeShadowIntensity = 10
+ATT.RTScopeShadowIntensity = 5
 ATT.RTScopeBlackBox = true 
 ATT.RTScopeBlackBoxShadow = true 
 
@@ -302,7 +302,7 @@ ATT.RTScopeFOV = 12
 ATT.RTScopeReticle = Material("models/shared/atts/rets/acog.png", "mips smooth")
 ATT.RTScopeReticleScale = 1.1
 ATT.RTScopeColorable = true
-ATT.RTScopeShadowIntensity = 10
+ATT.RTScopeShadowIntensity = 5
 ATT.RTScopeBlackBox = true 
 ATT.RTScopeBlackBoxShadow = true 
 
