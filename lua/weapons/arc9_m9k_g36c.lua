@@ -23,9 +23,7 @@ SWEP.Credits = {   -- Number in end of title orders line in list (otherwise they
 }
 
 
-SWEP.Description = [[The Steyr AUG (Armee Universal Gewehr, lit. "army universal rifle") is an Austrian family of bullpup automatic firearms designed by Hannes Kepplinger, Horst Wesp, Karl Wagner and Karl Möser in 1974[1] and produced by Steyr Arms since 1978. 
-The name "AUG" is often used to refer to a specific version, most often the original AUG A1 with a polymer plastic receiver and integrated Swarovski Optik optic. 
-The AUG has been adopted by the Austrian Armed Forces in 1978 as the StG 77 and serves as their service rifle.]]
+SWEP.Description = [[The Heckler & Koch G36 (short for Gewehr 36) is a German-made assault rifle manufactured by Heckler and Koch in the 1990s.]]
 
 
 SWEP.UseHands = true -- Same as weapon_base
