@@ -49,13 +49,13 @@ SWEP.ViewModelFOVBase = 70-- Set to override viewmodel FOV
 
 
 
-SWEP.DamageMax = 28-- Damage done at point blank range
-SWEP.DamageMin = 12 -- Damage done at maximum range
+SWEP.DamageMax = 22-- Damage done at point blank range
+SWEP.DamageMin = 9 -- Damage done at maximum range
 SWEP.ImpactForce = 0 -- Force that bullets apply on hit
 
 
 SWEP.RangeMin = 0 -- How far bullets retain their maximum damage for.
-SWEP.RangeMax = 2500-- In Hammer units, how far bullets can travel before dealing DamageMin.
+SWEP.RangeMax = 1500-- In Hammer units, how far bullets can travel before dealing DamageMin.
 SWEP.Distance = 5000 -- In Hammer units, how far bullets can travel, period.
 
 
@@ -180,7 +180,7 @@ SWEP.RecoilLookupTable = nil -- Use to set specific values for predictible recoi
 SWEP.RecoilLookupTableOverrun = nil -- Repeatedly take values from this table if we run out in the main table
 
 -- General recoil multiplier
-SWEP.Recoil = 1.2
+SWEP.Recoil = 1.5
 
 -- These multipliers affect the predictible recoil by making the pattern taller, shorter, wider, or thinner.
 SWEP.RecoilUp = 1.5 -- Multiplier for vertical recoil
