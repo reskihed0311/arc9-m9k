@@ -175,7 +175,7 @@ SWEP.RecoilLookupTable = nil -- Use to set specific values for predictible recoi
 SWEP.RecoilLookupTableOverrun = nil -- Repeatedly take values from this table if we run out in the main table
 
 -- General recoil multiplier
-SWEP.Recoil = 5
+SWEP.Recoil = 3
 
 -- These multipliers affect the predictible recoil by making the pattern taller, shorter, wider, or thinner.
 SWEP.RecoilUp = 2 -- Multiplier for vertical recoil
@@ -214,8 +214,8 @@ SWEP.FreeAimRadiusMultSights = 0
 
 SWEP.SwayMultSights = 0
 
-SWEP.AimDownSightsTime = 0.45 -- How long it takes to go from hip fire to aiming down sights.
-SWEP.SprintToFireTime = 0.45 -- How long it takes to go from sprinting to being able to fire.
+SWEP.AimDownSightsTime = 0.25 -- How long it takes to go from hip fire to aiming down sights.
+SWEP.SprintToFireTime = 0.15 -- How long it takes to go from sprinting to being able to fire.
 
 SWEP.MagnificationZoomSpeed = 1 -- Multiply how quickly the FOV adjusts itself when entering or exiting the sights, or when toggling from one sight to another.
 

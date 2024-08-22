@@ -53,8 +53,8 @@ ATT.RTScopeShadowIntensity = 1
 ATT.RTScopeNoPP = false
 ATT.RTScopeColorable = false
 
-ATT.AimDownSightsTimeMult = 1.3
-ATT.SprintToFireTimeMult = 1.3
+ATT.AimDownSightsTimeMult = 1.15
+ATT.SprintToFireTimeMult = 1.1
 
 
 ARC9.LoadAttachment(ATT, "r_m9k_m82scope")
