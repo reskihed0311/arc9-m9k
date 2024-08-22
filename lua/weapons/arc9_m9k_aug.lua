@@ -15,7 +15,7 @@ SWEP.RecoilKick = 0 -- Camera recoil
 SWEP.PrintName = "AUG A3"
 
 
-SWEP.Class = "Personal Defense Weapon"
+SWEP.Class = "Assault Rifle"
 
 
 SWEP.Credits = {   -- Number in end of title orders line in list (otherwise they will be in alphabet in menus). "_" will be replaced with space
