@@ -7,4 +7,12 @@
     "$phongexponent"     "10"
     "$phongboost" "0.75"
     "$phongfresnelranges" "[1 3 6]"
+	
+	 Proxies {
+    CustomCamo {
+        camoTexture $detail
+        camoScale $detailscale
+        blend $detailblendfactor
+    }
+}
 }
