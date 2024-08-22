@@ -1,0 +1,14 @@
+"VertexLitGeneric"
+{
+    "$baseTexture" "models\weapons\arc9_m9k\model3\cylinder"
+			    "$detailblendmode" "1"
+    "$detailblendfactor" "0.2"
+
+ Proxies {
+    CustomCamo {
+        camoTexture $detail
+        camoScale $detailscale
+        blend $detailblendfactor
+    }
+}
+    }
