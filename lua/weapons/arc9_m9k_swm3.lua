@@ -56,7 +56,7 @@ SWEP.ImpactForce = 0 -- Force that bullets apply on hit
 
 
 SWEP.RangeMin = -1 -- How far bullets retain their maximum damage for.
-SWEP.RangeMax = 2000-- In Hammer units, how far bullets can travel before dealing DamageMin.
+SWEP.RangeMax = 2500-- In Hammer units, how far bullets can travel before dealing DamageMin.
 SWEP.Distance = 7500 -- In Hammer units, how far bullets can travel, period.
 
 
@@ -467,7 +467,7 @@ SWEP.Animations = {
 
     },
     ["fire_empty"] = {
-        Source = "fire_empty",
+        Source = "fire",
         EjectAt = 0,
 
     },
@@ -477,7 +477,7 @@ SWEP.Animations = {
 
     },
     ["fire_iron_empty"] = {
-        Source = "fire_empty",
+        Source = "fire",
         EjectAt = 0,
 
     },
