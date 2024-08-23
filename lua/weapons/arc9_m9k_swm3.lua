@@ -294,7 +294,7 @@ SWEP.AfterShotParticleDelay = 0.01 -- Delay before spawning the particle
 SWEP.ShellEffectCount = 1
 SWEP.NoShellEject = true
 
-SWEP.ShellModel = "models/shells/shell_9mm.mdl"
+SWEP.ShellModel = nil
 
 
 SWEP.ShellSmoke = true
@@ -463,22 +463,18 @@ SWEP.Animations = {
     },
     ["fire"] = {
         Source = "fire",
-        EjectAt = 0,
 
     },
     ["fire_empty"] = {
         Source = "fire",
-        EjectAt = 0,
 
     },
     ["fire_iron"] = {
         Source = "fire_iron",
-        EjectAt = 0,
 
     },
     ["fire_iron_empty"] = {
         Source = "fire",
-        EjectAt = 0,
 
     },
     ["reload"] = {
