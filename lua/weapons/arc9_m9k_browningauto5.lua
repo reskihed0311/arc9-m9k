@@ -443,7 +443,7 @@ SWEP.Attachments = {
 }
 
 SWEP.ShotgunReload = true -- Weapon reloads like shotgun. Uses insert_1, insert_2, etc animations instead.
-SWEP.ShotgunReloadIncludesChamber = false-- Shotguns reload to full capacity, assuming that the chamber is loaded as part of the animation.
+SWEP.ShotgunReloadIncludesChamber = true-- Shotguns reload to full capacity, assuming that the chamber is loaded as part of the animation.
 SWEP.NoShellEjectManualAction = false -- Don't eject shell while cycling
 
 SWEP.ManualAction = false -- Pump/bolt action. Play the "cycle" animation after firing, when the trigger is released.
