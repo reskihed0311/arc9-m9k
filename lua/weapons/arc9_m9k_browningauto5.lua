@@ -63,7 +63,7 @@ SWEP.Distance = 2500 -- In Hammer units, how far bullets can travel, period.
 SWEP.CurvedDamageScaling = false -- If true, damage will scale in a quadratic curve between RangeMin and RangeMax. If false, damage will scale linearly.
 
 
-SWEP.Num = 9 -- Number of bullets to shoot
+SWEP.Num = 8 -- Number of bullets to shoot
 
 
 SWEP.Penetration = 0 -- Units of wood that can be penetrated by this gun.
