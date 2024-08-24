@@ -200,7 +200,8 @@ SWEP.UseDispersion = true -- Use this for shotguns - Additional random angle to 
 SWEP.DispersionSpread = 0.2 -- SWEP.Spread will be clump spread, and this will be dispersion of clump
 
 
-SWEP.Spread = 0.05
+SWEP.Spread = 0.001
+
 
 SWEP.SpreadAddMove = 0.015-- Applied when speed is equal to walking speed.
 SWEP.SpreadAddMidAir = 0.035 -- Applied when not touching the ground.
