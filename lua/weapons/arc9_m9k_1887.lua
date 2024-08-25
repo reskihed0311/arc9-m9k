@@ -197,7 +197,7 @@ SWEP.RecoilAutoControl = 0 -- Multiplier for automatic recoil control.
 
 
 SWEP.UseDispersion = true -- Use this for shotguns - Additional random angle to spread, same for each pellet
-SWEP.DispersionSpread = 0.2 -- SWEP.Spread will be clump spread, and this will be dispersion of clump
+SWEP.DispersionSpread = 0.1 -- SWEP.Spread will be clump spread, and this will be dispersion of clump
 
 
 SWEP.Spread = 0.001
