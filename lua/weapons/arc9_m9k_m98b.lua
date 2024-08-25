@@ -49,8 +49,8 @@ SWEP.ViewModelFOVBase = 70-- Set to override viewmodel FOV
 
 
 
-SWEP.DamageMax = 170 -- Damage done at point blank range
-SWEP.DamageMin = 130 -- Damage done at maximum range
+SWEP.DamageMax = 150 -- Damage done at point blank range
+SWEP.DamageMin = 100 -- Damage done at maximum range
 SWEP.ImpactForce = 0 -- Force that bullets apply on hit
 
 
@@ -224,10 +224,10 @@ SWEP.NoSprintWhenLocked = false -- You cannot sprint while reloading with this g
 
 
 
-SWEP.Speed = 0.7
+SWEP.Speed = 0.9
 
 SWEP.SpeedMult = 1
-SWEP.SpeedMultSights = 0.9
+SWEP.SpeedMultSights = 0.88
 SWEP.SpeedMultShooting = 0.9
 
 
@@ -244,7 +244,7 @@ SWEP.ShootPitch = 100
 SWEP.ShootPitchVariation = 5 -- Not multiplied, but actually just added/subtracted.
 
 
-SWEP.ShootSound = "weapons/intervention/int1.wav"                            -- Fire
+SWEP.ShootSound = "weapons/m98b/shot-1.wav"                            -- Fire
 
 SWEP.ShootSoundSilenced = ""                    -- Fire silenced
 
@@ -326,7 +326,7 @@ SWEP.BobWalkMult = 1 -- same but for all non sprint actions
 -------------------------- POSITIONS
 
 SWEP.IronSights = {
-    Pos = Vector(-2.876, -4.519, 0.159),
+    Pos = Vector(-2.237, -5.014, 0.375),
 }
 
 SWEP.HasSights = true
@@ -434,13 +434,13 @@ SWEP.Attachments = {
         DefaultName = "Iron Sights",
         Category = {"m9k_opticbig", "m9k_opticmedium"},
         Bone = "Weapon",
-        Pos = Vector(0, -2.9, 1),
+        Pos = Vector(0, -3.1, 1),
         Ang = Angle(90, 0, -90),
 
     },
     {
         PrintName = "Sticker A",
-        StickerModel = "models/stickers/arc9_m9k_stickersa_intervention.mdl",
+        StickerModel = "models/stickers/arc9_m9k_stickersa_m98b.mdl",
         Category = "stickers",
         Bone = "weapon",
         Pos = Vector(0, 0, 0),
@@ -475,16 +475,17 @@ SWEP.Animations = {
         Source = "cycle",
         EjectAt = 0.5,
         EventTable = {
-            {s = "weapons/intervention/int_bolt.mp3", t = 0.29},
-            {s = "weapons/intervention/int_bolt.mp3", t = 0.70},
+            {s = "weapons/m98b/boltback.mp3", t = 0.30},
+            {s = "weapons/m98b/boltforward.mp3", t = 0.7},
         },
 
     },
     ["cycle_iron"] = {
         Source = "cycle_iron",
         EventTable = {
-            {s = "weapons/intervention/int_bolt.mp3", t = 0.29},
-            {s = "weapons/intervention/int_bolt.mp3", t = 0.70},
+            {s = "weapons/m98b/boltback.mp3", t = 0.30},
+            {s = "weapons/m98b/boltforward.mp3", t = 0.7},
+
         },
         EjectAt = 0.5,
 
@@ -492,8 +493,8 @@ SWEP.Animations = {
     ["reload"] = {
         Source = "reload",
         EventTable = {
-            {s = "weapons/intervention/int_clipout.mp3", t = 0.67},
-            {s = "weapons/intervention/int_clipin.mp3", t = 1.95},
+            {s = "weapons/m98b/clipout.mp3", t = 0.72},
+            {s = "weapons/m98b/clipin.mp3", t = 1.70},
             {hide = 1, t = 1.2},
             {hide = 0, t = 1.7},
         }
@@ -501,10 +502,10 @@ SWEP.Animations = {
     ["reload_empty"] = {
         Source = "reload_empty",
         EventTable = {
-            {s = "weapons/intervention/int_bolt.mp3", t = 0.40},
-            {s = "weapons/intervention/int_clipout.mp3", t = 1.77},
-            {s = "weapons/intervention/int_clipin.mp3", t = 2.9},
-            {s = "weapons/intervention/int_bolt.mp3", t = 3.85},
+            {s = "weapons/m98b/boltback.mp3", t = 0.38},
+            {s = "weapons/m98b/clipout.mp3", t = 1.78},
+            {s = "weapons/m98b/clipin.mp3", t = 2.6},
+            {s = "weapons/m98b/boltforward.mp3", t = 3.65},
             {hide = 1, t = 1.9},
             {hide = 0, t = 2.1},
         }
