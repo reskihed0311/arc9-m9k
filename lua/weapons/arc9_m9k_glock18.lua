@@ -197,7 +197,7 @@ SWEP.RecoilAutoControl = 0 -- Multiplier for automatic recoil control.
 
 -------------------------- SPREAD
 
-SWEP.Spread = 0
+SWEP.Spread = 0.0005
 
 SWEP.SpreadAddMove = 0.03-- Applied when speed is equal to walking speed.
 SWEP.SpreadAddMidAir = 0.035 -- Applied when not touching the ground.

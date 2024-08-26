@@ -197,12 +197,12 @@ SWEP.RecoilAutoControl = 0 -- Multiplier for automatic recoil control.
 
 -------------------------- SPREAD
 
-SWEP.Spread = 0
+SWEP.Spread = 0.01 -- sperad ARs
 
 SWEP.SpreadAddMove = 0.035-- Applied when speed is equal to walking speed.
 SWEP.SpreadAddMidAir = 0.040 -- Applied when not touching the ground.
 SWEP.SpreadAddHipFire = 0.015 -- Applied when not sighted.
-SWEP.SpreadAddSighted = 0 -- Applied when sighted. Can be negative.
+SWEP.SpreadAddSighted = -0.005 -- Applied when sighted. Can be negative.
 
 
 
