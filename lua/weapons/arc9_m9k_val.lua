@@ -200,12 +200,13 @@ SWEP.RecoilAutoControl = 0 -- Multiplier for automatic recoil control.
 
 -------------------------- SPREAD
 
-SWEP.Spread = 0
+SWEP.Spread = 0.01 -- sperad ARs
 
-SWEP.SpreadAddMove = 0.03-- Applied when speed is equal to walking speed.
-SWEP.SpreadAddMidAir = 0.035 -- Applied when not touching the ground.
-SWEP.SpreadAddHipFire = 0.025 -- Applied when not sighted.
-SWEP.SpreadAddSighted = 0 -- Applied when sighted. Can be negative.
+SWEP.SpreadAddMove = 0.035-- Applied when speed is equal to walking speed.
+SWEP.SpreadAddMidAir = 0.040 -- Applied when not touching the ground.
+SWEP.SpreadAddHipFire = 0.015 -- Applied when not sighted.
+SWEP.SpreadAddSighted = -0.005 -- Applied when sighted. Can be negative.
+
 
 
 
@@ -337,7 +338,8 @@ SWEP.BobWalkMult = 1 -- same but for all non sprint actions
 -------------------------- POSITIONS
 
 SWEP.IronSights = {
-    Pos = Vector(-3.303, -7.91, 1.536),
+    Pos = Vector(-3.303, -7.91, 1.5),
+    Ang = Vector (0, 0.45, 0),
 }
 
 SWEP.HasSights = true
