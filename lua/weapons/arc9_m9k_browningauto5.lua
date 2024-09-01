@@ -50,13 +50,13 @@ SWEP.ViewModelFOVBase = 70-- Set to override viewmodel FOV
 
 
 
-SWEP.DamageMax = 17 -- Damage done at point blank range
-SWEP.DamageMin = 10 -- Damage done at maximum range
+SWEP.DamageMax = 10 -- Damage done at point blank range
+SWEP.DamageMin = 5 -- Damage done at maximum range
 SWEP.ImpactForce = 0 -- Force that bullets apply on hit
 
 
 SWEP.RangeMin = 0 -- How far bullets retain their maximum damage for.
-SWEP.RangeMax = 1000-- In Hammer units, how far bullets can travel before dealing DamageMin.
+SWEP.RangeMax = 750-- In Hammer units, how far bullets can travel before dealing DamageMin.
 SWEP.Distance = 2500 -- In Hammer units, how far bullets can travel, period.
 
 
@@ -144,7 +144,7 @@ SWEP.DryFireDelay = false -- Set to set time, otherwise uses animation length--]
 
 -------------------------- FIREMODES
 
-SWEP.RPM = 230
+SWEP.RPM = 180
 
 
 
